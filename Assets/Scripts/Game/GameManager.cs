@@ -5,9 +5,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject _player1;
-    private GameObject _ia;
+    [SerializeField] private GameObject _ia;
     void Start()
     {
-        _player1 = Instantiate(_player1, new Vector3(0, 0, 0), Quaternion.identity);
+        _player1 = Instantiate(_player1, new Vector3(-5, 0, 0), Quaternion.identity);
+        _ia = Instantiate(_ia, new Vector3(5, 0, 0), Quaternion.identity);
     }
 }

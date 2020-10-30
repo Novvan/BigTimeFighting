@@ -43,3 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc38305ad8b4914bbe59f6d9e6a8b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _player1: {fileID: 8604745872730419056, guid: 323df28aa522338429537892b4068153,
+    type: 3}
+  _ia: {fileID: 9129117753544812394, guid: 2fc29ed51c2dc70418174fb1c5064af7, type: 3}
