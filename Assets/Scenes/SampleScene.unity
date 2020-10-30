@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 371022241}
   m_Layer: 0
   m_Name: Wall (0)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 1030666988}
   m_Layer: 0
   m_Name: Arena
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 7.5
   _jumpForce: 12.5
-  _jumpCount: 1
+  _jumpCount: 0
 --- !u!50 &1752077100
 Rigidbody2D:
   serializedVersion: 4
@@ -715,7 +715,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2.5
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a0dda0afe48f1014cafaa746e08980c7, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
