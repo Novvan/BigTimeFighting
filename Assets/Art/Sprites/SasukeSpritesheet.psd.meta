@@ -1,7 +1,2020 @@
 fileFormatVersion: 2
 guid: f5dfbcd7b09571e40b885282b4c89518
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7550375651265477552
+    second: SasukeSpritesheet_0
+  - first:
+      213: -3004602014500670131
+    second: SasukeSpritesheet_1
+  - first:
+      213: -554393572377775648
+    second: SasukeSpritesheet_2
+  - first:
+      213: 2802962281855668177
+    second: SasukeSpritesheet_3
+  - first:
+      213: 2042061736673612629
+    second: SasukeSpritesheet_4
+  - first:
+      213: 4799291267225886534
+    second: SasukeSpritesheet_5
+  - first:
+      213: -4399135960865993746
+    second: SasukeSpritesheet_6
+  - first:
+      213: 4306320481086514430
+    second: SasukeSpritesheet_7
+  - first:
+      213: -8884381278659881646
+    second: SasukeSpritesheet_8
+  - first:
+      213: 9114430928018709668
+    second: SasukeSpritesheet_9
+  - first:
+      213: -432885760653409019
+    second: SasukeSpritesheet_10
+  - first:
+      213: -6181409521590589011
+    second: SasukeSpritesheet_11
+  - first:
+      213: 4799376276989867880
+    second: SasukeSpritesheet_12
+  - first:
+      213: 6238461326884833590
+    second: SasukeSpritesheet_13
+  - first:
+      213: 5186013021592441010
+    second: SasukeSpritesheet_14
+  - first:
+      213: 8788270277218010901
+    second: SasukeSpritesheet_15
+  - first:
+      213: -882805414955021486
+    second: SasukeSpritesheet_16
+  - first:
+      213: 6439220853663133645
+    second: SasukeSpritesheet_17
+  - first:
+      213: 4346348122194479143
+    second: SasukeSpritesheet_18
+  - first:
+      213: 1634692817327157111
+    second: SasukeSpritesheet_19
+  - first:
+      213: -2749489399410275627
+    second: SasukeSpritesheet_20
+  - first:
+      213: 6541738710913711262
+    second: SasukeSpritesheet_21
+  - first:
+      213: -6898854510463734705
+    second: SasukeSpritesheet_22
+  - first:
+      213: -6918270080380998292
+    second: SasukeSpritesheet_23
+  - first:
+      213: -7792133057811390845
+    second: SasukeSpritesheet_24
+  - first:
+      213: 3317054927532979692
+    second: SasukeSpritesheet_25
+  - first:
+      213: -3919326448427525452
+    second: SasukeSpritesheet_26
+  - first:
+      213: -3745183672387734279
+    second: SasukeSpritesheet_27
+  - first:
+      213: 8053496234561239896
+    second: SasukeSpritesheet_28
+  - first:
+      213: -9147562505275522947
+    second: SasukeSpritesheet_29
+  - first:
+      213: 3440428935096077835
+    second: SasukeSpritesheet_30
+  - first:
+      213: 5411932820024001139
+    second: SasukeSpritesheet_31
+  - first:
+      213: 5194491856553038635
+    second: SasukeSpritesheet_32
+  - first:
+      213: 8894419977551655857
+    second: SasukeSpritesheet_33
+  - first:
+      213: 217644630605283747
+    second: SasukeSpritesheet_34
+  - first:
+      213: -8575332441337353750
+    second: SasukeSpritesheet_35
+  - first:
+      213: -2988948077096986579
+    second: SasukeSpritesheet_36
+  - first:
+      213: 7491521066045392912
+    second: SasukeSpritesheet_37
+  - first:
+      213: -2956001867118240214
+    second: SasukeSpritesheet_38
+  - first:
+      213: 7047526459040712798
+    second: SasukeSpritesheet_39
+  - first:
+      213: 6870926216351609912
+    second: SasukeSpritesheet_40
+  - first:
+      213: 9195375113812585298
+    second: SasukeSpritesheet_41
+  - first:
+      213: -7729822458877913535
+    second: SasukeSpritesheet_42
+  - first:
+      213: 8275776827375725415
+    second: SasukeSpritesheet_43
+  - first:
+      213: -8520488645144740158
+    second: SasukeSpritesheet_44
+  - first:
+      213: 2896831065836863269
+    second: SasukeSpritesheet_45
+  - first:
+      213: 4732214029232433680
+    second: SasukeSpritesheet_46
+  - first:
+      213: -48036317747783440
+    second: SasukeSpritesheet_47
+  - first:
+      213: 3850952555567181908
+    second: SasukeSpritesheet_48
+  - first:
+      213: -4843848679241257269
+    second: SasukeSpritesheet_49
+  - first:
+      213: -4950064259647229279
+    second: SasukeSpritesheet_50
+  - first:
+      213: 995602374224488767
+    second: SasukeSpritesheet_51
+  - first:
+      213: 2321218216324117349
+    second: SasukeSpritesheet_52
+  - first:
+      213: 1195979154499212697
+    second: SasukeSpritesheet_53
+  - first:
+      213: -4559669079514605049
+    second: SasukeSpritesheet_54
+  - first:
+      213: -8281759871144440697
+    second: SasukeSpritesheet_55
+  - first:
+      213: 7043747625942445095
+    second: SasukeSpritesheet_56
+  - first:
+      213: -1747234195809565151
+    second: SasukeSpritesheet_57
+  - first:
+      213: 6514079708818851628
+    second: SasukeSpritesheet_58
+  - first:
+      213: -6686524259979580406
+    second: SasukeSpritesheet_59
+  - first:
+      213: 7174167528807762325
+    second: SasukeSpritesheet_60
+  - first:
+      213: 7277583937037341201
+    second: SasukeSpritesheet_61
+  - first:
+      213: -3329530972262332962
+    second: SasukeSpritesheet_62
+  - first:
+      213: -96491043040059695
+    second: SasukeSpritesheet_63
+  - first:
+      213: -4331416708999146668
+    second: SasukeSpritesheet_64
+  - first:
+      213: -3484414784792565949
+    second: SasukeSpritesheet_65
+  - first:
+      213: -3841451176707272097
+    second: SasukeSpritesheet_66
+  - first:
+      213: 3359746456436158980
+    second: SasukeSpritesheet_67
+  - first:
+      213: 5518528032569318221
+    second: SasukeSpritesheet_68
+  - first:
+      213: 5490600927148727858
+    second: SasukeSpritesheet_69
+  - first:
+      213: 8903138731716665394
+    second: SasukeSpritesheet_70
+  - first:
+      213: -4819347387283344989
+    second: SasukeSpritesheet_71
+  - first:
+      213: 4924778498902105401
+    second: SasukeSpritesheet_72
+  - first:
+      213: -2610510386560386552
+    second: SasukeSpritesheet_73
+  - first:
+      213: 8702677734198312308
+    second: SasukeSpritesheet_74
+  - first:
+      213: -4369068638347029115
+    second: SasukeSpritesheet_75
+  - first:
+      213: -8044742523290772748
+    second: SasukeSpritesheet_76
+  - first:
+      213: 4419488888356056555
+    second: SasukeSpritesheet_77
+  - first:
+      213: 754623811274919968
+    second: SasukeSpritesheet_78
+  - first:
+      213: 2861351020599086586
+    second: SasukeSpritesheet_79
+  - first:
+      213: 3101897104029809203
+    second: SasukeSpritesheet_80
+  - first:
+      213: 4167860918344803211
+    second: SasukeSpritesheet_81
+  - first:
+      213: -967282799949707964
+    second: SasukeSpritesheet_82
+  - first:
+      213: -8403853090362057693
+    second: SasukeSpritesheet_83
+  - first:
+      213: 4850198913846083830
+    second: SasukeSpritesheet_84
+  - first:
+      213: 1580869358702143416
+    second: SasukeSpritesheet_85
+  - first:
+      213: -6061639321186810845
+    second: SasukeSpritesheet_86
+  - first:
+      213: 2069504411781093980
+    second: SasukeSpritesheet_87
+  - first:
+      213: 4112277842268691100
+    second: SasukeSpritesheet_88
+  - first:
+      213: 4424130899217258021
+    second: SasukeSpritesheet_89
+  - first:
+      213: 6820119275961023402
+    second: SasukeSpritesheet_90
+  - first:
+      213: -579021285609886153
+    second: SasukeSpritesheet_91
+  - first:
+      213: 3305881783311267238
+    second: SasukeSpritesheet_92
+  - first:
+      213: -4727688679031369576
+    second: SasukeSpritesheet_93
+  - first:
+      213: -2771478150576505728
+    second: SasukeSpritesheet_94
+  - first:
+      213: 1584418456249802128
+    second: SasukeSpritesheet_95
+  - first:
+      213: 6873330086050534031
+    second: SasukeSpritesheet_96
+  - first:
+      213: -8025335821414046911
+    second: SasukeSpritesheet_97
+  - first:
+      213: -6049133809209184648
+    second: SasukeSpritesheet_98
+  - first:
+      213: 3595945607355178821
+    second: SasukeSpritesheet_99
+  - first:
+      213: -7645887378647758597
+    second: SasukeSpritesheet_100
+  - first:
+      213: -5852230608457170778
+    second: SasukeSpritesheet_101
+  - first:
+      213: -7748626822734020767
+    second: SasukeSpritesheet_102
+  - first:
+      213: 3388703274975604028
+    second: SasukeSpritesheet_103
+  - first:
+      213: 7337108301694488287
+    second: SasukeSpritesheet_104
+  - first:
+      213: 4027230205579903549
+    second: SasukeSpritesheet_105
+  - first:
+      213: -8011343427897936058
+    second: SasukeSpritesheet_106
+  - first:
+      213: 8646146399533774006
+    second: SasukeSpritesheet_107
+  - first:
+      213: 969755959745064702
+    second: SasukeSpritesheet_108
+  - first:
+      213: 5263442243517424980
+    second: SasukeSpritesheet_109
+  - first:
+      213: 3122974435508701287
+    second: SasukeSpritesheet_110
+  - first:
+      213: 5294118671514311595
+    second: SasukeSpritesheet_111
+  - first:
+      213: 9194258614527466063
+    second: SasukeSpritesheet_112
+  - first:
+      213: 5596693024365991600
+    second: SasukeSpritesheet_113
+  - first:
+      213: -4728212292973995429
+    second: SasukeSpritesheet_114
+  - first:
+      213: 7770677281920287340
+    second: SasukeSpritesheet_115
+  - first:
+      213: -6448921014689571522
+    second: SasukeSpritesheet_116
+  - first:
+      213: -1549719028535659231
+    second: SasukeSpritesheet_117
+  - first:
+      213: 8296711090800235904
+    second: SasukeSpritesheet_118
+  - first:
+      213: -2892049184617864915
+    second: SasukeSpritesheet_119
+  - first:
+      213: 2360166536725462017
+    second: SasukeSpritesheet_120
+  - first:
+      213: -4061110312877218351
+    second: SasukeSpritesheet_121
+  - first:
+      213: -2376967195262730495
+    second: SasukeSpritesheet_122
+  - first:
+      213: -2114039801434689541
+    second: SasukeSpritesheet_123
+  - first:
+      213: 492137855397929649
+    second: SasukeSpritesheet_124
+  - first:
+      213: 9155983785621767343
+    second: SasukeSpritesheet_125
+  - first:
+      213: -8878422627472592594
+    second: SasukeSpritesheet_126
+  - first:
+      213: 1799233537737689097
+    second: SasukeSpritesheet_127
+  - first:
+      213: -5147823900104000586
+    second: SasukeSpritesheet_128
+  - first:
+      213: 6898995407393529091
+    second: SasukeSpritesheet_129
+  - first:
+      213: 702933930748006244
+    second: SasukeSpritesheet_130
+  - first:
+      213: -1257249143534851343
+    second: SasukeSpritesheet_131
+  - first:
+      213: -40680736107124655
+    second: SasukeSpritesheet_132
+  - first:
+      213: 2058165270645287811
+    second: SasukeSpritesheet_133
+  - first:
+      213: -6727318687446853572
+    second: SasukeSpritesheet_134
+  - first:
+      213: 4078466738717470940
+    second: SasukeSpritesheet_135
+  - first:
+      213: -5309209119258961087
+    second: SasukeSpritesheet_136
+  - first:
+      213: -8939850828780000026
+    second: SasukeSpritesheet_137
+  - first:
+      213: -5197777564540007459
+    second: SasukeSpritesheet_138
+  - first:
+      213: 4967214155915570923
+    second: SasukeSpritesheet_139
+  - first:
+      213: 8430068319299920353
+    second: SasukeSpritesheet_140
+  - first:
+      213: -8184902502978961614
+    second: SasukeSpritesheet_141
+  - first:
+      213: 8369437323334697136
+    second: SasukeSpritesheet_142
+  - first:
+      213: -8651246991535365402
+    second: SasukeSpritesheet_143
+  - first:
+      213: -3739162814814864301
+    second: SasukeSpritesheet_144
+  - first:
+      213: 8101580250862745100
+    second: SasukeSpritesheet_145
+  - first:
+      213: -6244177731953987224
+    second: SasukeSpritesheet_146
+  - first:
+      213: 1631305337457835024
+    second: SasukeSpritesheet_147
+  - first:
+      213: -5353614512965939306
+    second: SasukeSpritesheet_148
+  - first:
+      213: -7028898608498548910
+    second: SasukeSpritesheet_149
+  - first:
+      213: -6149945091471464321
+    second: SasukeSpritesheet_150
+  - first:
+      213: 6435382471387878157
+    second: SasukeSpritesheet_151
+  - first:
+      213: 1543422954318322809
+    second: SasukeSpritesheet_152
+  - first:
+      213: 411531600882426145
+    second: SasukeSpritesheet_153
+  - first:
+      213: 5987739358794043324
+    second: SasukeSpritesheet_154
+  - first:
+      213: 1378144116680933951
+    second: SasukeSpritesheet_155
+  - first:
+      213: 8943826099587151539
+    second: SasukeSpritesheet_156
+  - first:
+      213: 1083615875638215762
+    second: SasukeSpritesheet_157
+  - first:
+      213: -6471561121602758128
+    second: SasukeSpritesheet_158
+  - first:
+      213: 5605192725571925301
+    second: SasukeSpritesheet_159
+  - first:
+      213: 3275982052402581550
+    second: SasukeSpritesheet_160
+  - first:
+      213: -7650356212344575128
+    second: SasukeSpritesheet_161
+  - first:
+      213: -6433254775101881466
+    second: SasukeSpritesheet_162
+  - first:
+      213: -6154101349336455744
+    second: SasukeSpritesheet_163
+  - first:
+      213: -5714230284092199764
+    second: SasukeSpritesheet_164
+  - first:
+      213: 1640347910378036587
+    second: SasukeSpritesheet_165
+  - first:
+      213: 905376535318157102
+    second: SasukeSpritesheet_166
+  - first:
+      213: 8289832412026929447
+    second: SasukeSpritesheet_167
+  - first:
+      213: 6212122368738773238
+    second: SasukeSpritesheet_168
+  - first:
+      213: 1417754588923915654
+    second: SasukeSpritesheet_169
+  - first:
+      213: -5983999139305265064
+    second: SasukeSpritesheet_170
+  - first:
+      213: 982821562334296333
+    second: SasukeSpritesheet_171
+  - first:
+      213: 3257697604150081285
+    second: SasukeSpritesheet_172
+  - first:
+      213: 8811960998071864461
+    second: SasukeSpritesheet_173
+  - first:
+      213: 4472461021758323358
+    second: SasukeSpritesheet_174
+  - first:
+      213: 7661777242948431302
+    second: SasukeSpritesheet_175
+  - first:
+      213: 2777737113013000059
+    second: SasukeSpritesheet_176
+  - first:
+      213: 351057153258600848
+    second: SasukeSpritesheet_177
+  - first:
+      213: 6994357960450108103
+    second: SasukeSpritesheet_178
+  - first:
+      213: 1584511768517387010
+    second: SasukeSpritesheet_179
+  - first:
+      213: 6066400756552691448
+    second: SasukeSpritesheet_180
+  - first:
+      213: -1981450223754373341
+    second: SasukeSpritesheet_181
+  - first:
+      213: -569251263144257631
+    second: SasukeSpritesheet_182
+  - first:
+      213: -4318646044074652779
+    second: SasukeSpritesheet_183
+  - first:
+      213: 6347933908325157939
+    second: SasukeSpritesheet_184
+  - first:
+      213: 8899511415349056343
+    second: SasukeSpritesheet_185
+  - first:
+      213: -4301140954865977577
+    second: SasukeSpritesheet_186
+  - first:
+      213: -11829434159236071
+    second: SasukeSpritesheet_187
+  - first:
+      213: -1775783657269250163
+    second: SasukeSpritesheet_188
+  - first:
+      213: -6062871229897430879
+    second: SasukeSpritesheet_189
+  - first:
+      213: -4758938981578660371
+    second: SasukeSpritesheet_190
+  - first:
+      213: -1105710082811648951
+    second: SasukeSpritesheet_191
+  - first:
+      213: -7647454205149580432
+    second: SasukeSpritesheet_192
+  - first:
+      213: -4260232186365354949
+    second: SasukeSpritesheet_193
+  - first:
+      213: 3423054382310091297
+    second: SasukeSpritesheet_194
+  - first:
+      213: 3661305766420687373
+    second: SasukeSpritesheet_195
+  - first:
+      213: -3377998903998802427
+    second: SasukeSpritesheet_196
+  - first:
+      213: -8134116426261141259
+    second: SasukeSpritesheet_197
+  - first:
+      213: -8420866265522097769
+    second: SasukeSpritesheet_198
+  - first:
+      213: 1999131698317176388
+    second: SasukeSpritesheet_199
+  - first:
+      213: 3246999113675099047
+    second: SasukeSpritesheet_200
+  - first:
+      213: 8022911217362648096
+    second: SasukeSpritesheet_201
+  - first:
+      213: 2273597078891315411
+    second: SasukeSpritesheet_202
+  - first:
+      213: -5992213541967206408
+    second: SasukeSpritesheet_203
+  - first:
+      213: 2718018328726689294
+    second: SasukeSpritesheet_204
+  - first:
+      213: 7533024811994246901
+    second: SasukeSpritesheet_205
+  - first:
+      213: -8186096695258714375
+    second: SasukeSpritesheet_206
+  - first:
+      213: -1887811541855795472
+    second: SasukeSpritesheet_207
+  - first:
+      213: -5400738606940355429
+    second: SasukeSpritesheet_208
+  - first:
+      213: -1778600629227792033
+    second: SasukeSpritesheet_209
+  - first:
+      213: 4284489992857155386
+    second: SasukeSpritesheet_210
+  - first:
+      213: -5223759812895184774
+    second: SasukeSpritesheet_211
+  - first:
+      213: 2675042305499130808
+    second: SasukeSpritesheet_212
+  - first:
+      213: 4246351189618788332
+    second: SasukeSpritesheet_213
+  - first:
+      213: -7312414326598611997
+    second: SasukeSpritesheet_214
+  - first:
+      213: 8549104029062850826
+    second: SasukeSpritesheet_215
+  - first:
+      213: -7180826565702067423
+    second: SasukeSpritesheet_216
+  - first:
+      213: -872109234756505728
+    second: SasukeSpritesheet_217
+  - first:
+      213: 1725749506991931901
+    second: SasukeSpritesheet_218
+  - first:
+      213: 3917002988948811803
+    second: SasukeSpritesheet_219
+  - first:
+      213: -5247131502720937665
+    second: SasukeSpritesheet_220
+  - first:
+      213: -6521472307317544993
+    second: SasukeSpritesheet_221
+  - first:
+      213: 2852872787520009959
+    second: SasukeSpritesheet_222
+  - first:
+      213: 1758719886616712056
+    second: SasukeSpritesheet_223
+  - first:
+      213: -757125465804640463
+    second: SasukeSpritesheet_224
+  - first:
+      213: -7267833575578321390
+    second: SasukeSpritesheet_225
+  - first:
+      213: 638529403171204803
+    second: SasukeSpritesheet_226
+  - first:
+      213: 2127687824750939300
+    second: SasukeSpritesheet_227
+  - first:
+      213: 4896351704474855386
+    second: SasukeSpritesheet_228
+  - first:
+      213: -506072374852697207
+    second: SasukeSpritesheet_229
+  - first:
+      213: 8890337972929748992
+    second: SasukeSpritesheet_230
+  - first:
+      213: -5470702407019911020
+    second: SasukeSpritesheet_231
+  - first:
+      213: 6691160252774893029
+    second: SasukeSpritesheet_232
+  - first:
+      213: -8329314693693654769
+    second: SasukeSpritesheet_233
+  - first:
+      213: -3122592845779890517
+    second: SasukeSpritesheet_234
+  - first:
+      213: 418083093325033880
+    second: SasukeSpritesheet_235
+  - first:
+      213: 7289459399620888758
+    second: SasukeSpritesheet_236
+  - first:
+      213: 3856953116891815199
+    second: SasukeSpritesheet_237
+  - first:
+      213: 5781793702998780366
+    second: SasukeSpritesheet_238
+  - first:
+      213: 4381758068828148907
+    second: SasukeSpritesheet_239
+  - first:
+      213: -1059204952204549432
+    second: SasukeSpritesheet_240
+  - first:
+      213: -7738246610093650236
+    second: SasukeSpritesheet_241
+  - first:
+      213: 603122009168278549
+    second: SasukeSpritesheet_242
+  - first:
+      213: -5681654444821986456
+    second: SasukeSpritesheet_243
+  - first:
+      213: 3559816318340377780
+    second: SasukeSpritesheet_244
+  - first:
+      213: 4928812393585652879
+    second: SasukeSpritesheet_245
+  - first:
+      213: 3834321017228095747
+    second: SasukeSpritesheet_246
+  - first:
+      213: -606638887992949615
+    second: SasukeSpritesheet_247
+  - first:
+      213: -2644693480377703399
+    second: SasukeSpritesheet_248
+  - first:
+      213: 7007788717933581874
+    second: SasukeSpritesheet_249
+  - first:
+      213: 7535196428301825276
+    second: SasukeSpritesheet_250
+  - first:
+      213: -2305296576864507088
+    second: SasukeSpritesheet_251
+  - first:
+      213: -4043585259139477400
+    second: SasukeSpritesheet_252
+  - first:
+      213: 977259595111799702
+    second: SasukeSpritesheet_253
+  - first:
+      213: -2957866685635544059
+    second: SasukeSpritesheet_254
+  - first:
+      213: -7121752508390436946
+    second: SasukeSpritesheet_255
+  - first:
+      213: -6290643452377011044
+    second: SasukeSpritesheet_256
+  - first:
+      213: -3804413683082475028
+    second: SasukeSpritesheet_257
+  - first:
+      213: -3656136738868174788
+    second: SasukeSpritesheet_258
+  - first:
+      213: -4808278538049168187
+    second: SasukeSpritesheet_259
+  - first:
+      213: -280384926514460519
+    second: SasukeSpritesheet_260
+  - first:
+      213: 5580952113780308445
+    second: SasukeSpritesheet_261
+  - first:
+      213: -4483737234603821780
+    second: SasukeSpritesheet_262
+  - first:
+      213: -1768775086609936908
+    second: SasukeSpritesheet_263
+  - first:
+      213: -5728309145657011040
+    second: SasukeSpritesheet_264
+  - first:
+      213: -8228463500020545718
+    second: SasukeSpritesheet_265
+  - first:
+      213: 7089286234392220325
+    second: SasukeSpritesheet_266
+  - first:
+      213: 5115887175752568814
+    second: SasukeSpritesheet_267
+  - first:
+      213: 5096494718465003834
+    second: SasukeSpritesheet_268
+  - first:
+      213: -3706008265572914774
+    second: SasukeSpritesheet_269
+  - first:
+      213: -14473836997745468
+    second: SasukeSpritesheet_270
+  - first:
+      213: -1939538679911929647
+    second: SasukeSpritesheet_271
+  - first:
+      213: -3861341488624326497
+    second: SasukeSpritesheet_272
+  - first:
+      213: 3164092279164789808
+    second: SasukeSpritesheet_273
+  - first:
+      213: -1689895582203802081
+    second: SasukeSpritesheet_274
+  - first:
+      213: -8286235151722574705
+    second: SasukeSpritesheet_275
+  - first:
+      213: 1659608123755040249
+    second: SasukeSpritesheet_276
+  - first:
+      213: -5498350772817092401
+    second: SasukeSpritesheet_277
+  - first:
+      213: 6707139777519666920
+    second: SasukeSpritesheet_278
+  - first:
+      213: -5119425307097571337
+    second: SasukeSpritesheet_279
+  - first:
+      213: -3570843263087233478
+    second: SasukeSpritesheet_280
+  - first:
+      213: -824798602546652288
+    second: SasukeSpritesheet_281
+  - first:
+      213: -9056861765411994269
+    second: SasukeSpritesheet_282
+  - first:
+      213: 1348898771547369445
+    second: SasukeSpritesheet_283
+  - first:
+      213: 6816961991659770813
+    second: SasukeSpritesheet_284
+  - first:
+      213: -2275189040763602341
+    second: SasukeSpritesheet_285
+  - first:
+      213: 4561012823006295561
+    second: SasukeSpritesheet_286
+  - first:
+      213: 1114639076750755156
+    second: SasukeSpritesheet_287
+  - first:
+      213: -2713257464750640975
+    second: SasukeSpritesheet_288
+  - first:
+      213: 3020284757572378465
+    second: SasukeSpritesheet_289
+  - first:
+      213: -4542388857784594811
+    second: SasukeSpritesheet_290
+  - first:
+      213: -539988125741747566
+    second: SasukeSpritesheet_291
+  - first:
+      213: 7930135953533103294
+    second: SasukeSpritesheet_292
+  - first:
+      213: -6319255582304284380
+    second: SasukeSpritesheet_293
+  - first:
+      213: -1500274465273554093
+    second: SasukeSpritesheet_294
+  - first:
+      213: 4161491557173018708
+    second: SasukeSpritesheet_295
+  - first:
+      213: -5317168801312994207
+    second: SasukeSpritesheet_296
+  - first:
+      213: -7526082223542087185
+    second: SasukeSpritesheet_297
+  - first:
+      213: -1489313290836178976
+    second: SasukeSpritesheet_298
+  - first:
+      213: -8309965091720401421
+    second: SasukeSpritesheet_299
+  - first:
+      213: 4509340192651176618
+    second: SasukeSpritesheet_300
+  - first:
+      213: 8797453896802520515
+    second: SasukeSpritesheet_301
+  - first:
+      213: 1970337612673577089
+    second: SasukeSpritesheet_302
+  - first:
+      213: -6391303084537978291
+    second: SasukeSpritesheet_303
+  - first:
+      213: 1753030177252814773
+    second: SasukeSpritesheet_304
+  - first:
+      213: -6326834943211099814
+    second: SasukeSpritesheet_305
+  - first:
+      213: -3427120814696044752
+    second: SasukeSpritesheet_306
+  - first:
+      213: -5821802567996282122
+    second: SasukeSpritesheet_307
+  - first:
+      213: -6730946663672351809
+    second: SasukeSpritesheet_308
+  - first:
+      213: -4771143618710761785
+    second: SasukeSpritesheet_309
+  - first:
+      213: 9199020680031459310
+    second: SasukeSpritesheet_310
+  - first:
+      213: 5647651309120080101
+    second: SasukeSpritesheet_311
+  - first:
+      213: -2380116159129565380
+    second: SasukeSpritesheet_312
+  - first:
+      213: -1092327580298595318
+    second: SasukeSpritesheet_313
+  - first:
+      213: 5283131130759791028
+    second: SasukeSpritesheet_314
+  - first:
+      213: -1459574100816643401
+    second: SasukeSpritesheet_315
+  - first:
+      213: 3953795186506387592
+    second: SasukeSpritesheet_316
+  - first:
+      213: 1555707338587202416
+    second: SasukeSpritesheet_317
+  - first:
+      213: 5474896336944042381
+    second: SasukeSpritesheet_318
+  - first:
+      213: 1451760308679185242
+    second: SasukeSpritesheet_319
+  - first:
+      213: -6177505191111528610
+    second: SasukeSpritesheet_320
+  - first:
+      213: -3495971881829042977
+    second: SasukeSpritesheet_321
+  - first:
+      213: 5175970090389365110
+    second: SasukeSpritesheet_322
+  - first:
+      213: 2248326803543003389
+    second: SasukeSpritesheet_323
+  - first:
+      213: -3894745213158811074
+    second: SasukeSpritesheet_324
+  - first:
+      213: -5348236075603721255
+    second: SasukeSpritesheet_325
+  - first:
+      213: 6560416852790556101
+    second: SasukeSpritesheet_326
+  - first:
+      213: 6460855347181253684
+    second: SasukeSpritesheet_327
+  - first:
+      213: 583919789847748637
+    second: SasukeSpritesheet_328
+  - first:
+      213: 2844002003118215279
+    second: SasukeSpritesheet_329
+  - first:
+      213: -6518837981702945784
+    second: SasukeSpritesheet_330
+  - first:
+      213: 2802935332521885113
+    second: SasukeSpritesheet_331
+  - first:
+      213: -980907320089482040
+    second: SasukeSpritesheet_332
+  - first:
+      213: 8374927213031121928
+    second: SasukeSpritesheet_333
+  - first:
+      213: -3422774361390974080
+    second: SasukeSpritesheet_334
+  - first:
+      213: 1805876552237325448
+    second: SasukeSpritesheet_335
+  - first:
+      213: -7369114386340588015
+    second: SasukeSpritesheet_336
+  - first:
+      213: -7894669348199159491
+    second: SasukeSpritesheet_337
+  - first:
+      213: 136194769387394102
+    second: SasukeSpritesheet_338
+  - first:
+      213: 1591385085667133622
+    second: SasukeSpritesheet_339
+  - first:
+      213: 407677391031480664
+    second: SasukeSpritesheet_340
+  - first:
+      213: 8589600589661290652
+    second: SasukeSpritesheet_341
+  - first:
+      213: 1600098339021204161
+    second: SasukeSpritesheet_342
+  - first:
+      213: 779507359081602401
+    second: SasukeSpritesheet_343
+  - first:
+      213: -6310416236694983502
+    second: SasukeSpritesheet_344
+  - first:
+      213: 2034836647273451415
+    second: SasukeSpritesheet_345
+  - first:
+      213: 2612553748220792296
+    second: SasukeSpritesheet_346
+  - first:
+      213: -5499604990571299609
+    second: SasukeSpritesheet_347
+  - first:
+      213: -6273992669218370178
+    second: SasukeSpritesheet_348
+  - first:
+      213: 6857347402479537277
+    second: SasukeSpritesheet_349
+  - first:
+      213: 8364120722593998774
+    second: SasukeSpritesheet_350
+  - first:
+      213: 5949249135286765021
+    second: SasukeSpritesheet_351
+  - first:
+      213: -2234928138047772891
+    second: SasukeSpritesheet_352
+  - first:
+      213: -8451134601854640183
+    second: SasukeSpritesheet_353
+  - first:
+      213: 7977159699301389754
+    second: SasukeSpritesheet_354
+  - first:
+      213: -5221660525150871085
+    second: SasukeSpritesheet_355
+  - first:
+      213: -1029198883904369459
+    second: SasukeSpritesheet_356
+  - first:
+      213: 3037063194722938320
+    second: SasukeSpritesheet_357
+  - first:
+      213: 485093763285399431
+    second: SasukeSpritesheet_358
+  - first:
+      213: 6217417689473709694
+    second: SasukeSpritesheet_359
+  - first:
+      213: 9148594545305329751
+    second: SasukeSpritesheet_360
+  - first:
+      213: -4422546665257589301
+    second: SasukeSpritesheet_361
+  - first:
+      213: -1998098865224642688
+    second: SasukeSpritesheet_362
+  - first:
+      213: -5319486237334640201
+    second: SasukeSpritesheet_363
+  - first:
+      213: -3960910441902768420
+    second: SasukeSpritesheet_364
+  - first:
+      213: 7819227877223224369
+    second: SasukeSpritesheet_365
+  - first:
+      213: -5770668237883537506
+    second: SasukeSpritesheet_366
+  - first:
+      213: 8687123611636250933
+    second: SasukeSpritesheet_367
+  - first:
+      213: -3182013195569225974
+    second: SasukeSpritesheet_368
+  - first:
+      213: -2324841351369499173
+    second: SasukeSpritesheet_369
+  - first:
+      213: -6369503010400711786
+    second: SasukeSpritesheet_370
+  - first:
+      213: -8861464969449534396
+    second: SasukeSpritesheet_371
+  - first:
+      213: 6934139819213752628
+    second: SasukeSpritesheet_372
+  - first:
+      213: -1109810216066984377
+    second: SasukeSpritesheet_373
+  - first:
+      213: -2139687672818174131
+    second: SasukeSpritesheet_374
+  - first:
+      213: -4338243441807180285
+    second: SasukeSpritesheet_375
+  - first:
+      213: 5884084185383401829
+    second: SasukeSpritesheet_376
+  - first:
+      213: -777696883708979682
+    second: SasukeSpritesheet_377
+  - first:
+      213: 4613415469576835862
+    second: SasukeSpritesheet_378
+  - first:
+      213: 5414684620763298949
+    second: SasukeSpritesheet_379
+  - first:
+      213: -361154848024528049
+    second: SasukeSpritesheet_380
+  - first:
+      213: 5270505456942424202
+    second: SasukeSpritesheet_381
+  - first:
+      213: -7063815606394727490
+    second: SasukeSpritesheet_382
+  - first:
+      213: -8018680257771064761
+    second: SasukeSpritesheet_383
+  - first:
+      213: -7682222113023093042
+    second: SasukeSpritesheet_384
+  - first:
+      213: -176742198691615083
+    second: SasukeSpritesheet_385
+  - first:
+      213: -33410316258147337
+    second: SasukeSpritesheet_386
+  - first:
+      213: -4684567623964824398
+    second: SasukeSpritesheet_387
+  - first:
+      213: 776735179203754428
+    second: SasukeSpritesheet_388
+  - first:
+      213: -1552570697199809410
+    second: SasukeSpritesheet_389
+  - first:
+      213: -7476860653334387805
+    second: SasukeSpritesheet_390
+  - first:
+      213: 7350480563403912706
+    second: SasukeSpritesheet_391
+  - first:
+      213: 5751464149956596136
+    second: SasukeSpritesheet_392
+  - first:
+      213: 8444615552968197430
+    second: SasukeSpritesheet_393
+  - first:
+      213: -1771783764123031103
+    second: SasukeSpritesheet_394
+  - first:
+      213: 6264477183938132359
+    second: SasukeSpritesheet_395
+  - first:
+      213: 2835519689659754051
+    second: SasukeSpritesheet_396
+  - first:
+      213: -1667635759584028544
+    second: SasukeSpritesheet_397
+  - first:
+      213: 3338992469934305067
+    second: SasukeSpritesheet_398
+  - first:
+      213: -5436348246637782973
+    second: SasukeSpritesheet_399
+  - first:
+      213: -1858691709329539382
+    second: SasukeSpritesheet_400
+  - first:
+      213: 2632632674787866506
+    second: SasukeSpritesheet_401
+  - first:
+      213: -6775158653109508931
+    second: SasukeSpritesheet_402
+  - first:
+      213: -204765360612598161
+    second: SasukeSpritesheet_403
+  - first:
+      213: -8718154407088275650
+    second: SasukeSpritesheet_404
+  - first:
+      213: 7587246504506879726
+    second: SasukeSpritesheet_405
+  - first:
+      213: -7761203643278605216
+    second: SasukeSpritesheet_406
+  - first:
+      213: -7126057830653220596
+    second: SasukeSpritesheet_407
+  - first:
+      213: -3235163715632598048
+    second: SasukeSpritesheet_408
+  - first:
+      213: -7241872181587040936
+    second: SasukeSpritesheet_409
+  - first:
+      213: -5327949638079886786
+    second: SasukeSpritesheet_410
+  - first:
+      213: 2098745841312354882
+    second: SasukeSpritesheet_411
+  - first:
+      213: 3590613220027295029
+    second: SasukeSpritesheet_412
+  - first:
+      213: -3342673439278001544
+    second: SasukeSpritesheet_413
+  - first:
+      213: 3208572808561385494
+    second: SasukeSpritesheet_414
+  - first:
+      213: -7124854067220207330
+    second: SasukeSpritesheet_415
+  - first:
+      213: 3036547216954665426
+    second: SasukeSpritesheet_416
+  - first:
+      213: -5002972975044795422
+    second: SasukeSpritesheet_417
+  - first:
+      213: 6403353117091730227
+    second: SasukeSpritesheet_418
+  - first:
+      213: 6922178636904843423
+    second: SasukeSpritesheet_419
+  - first:
+      213: 213125345622226327
+    second: SasukeSpritesheet_420
+  - first:
+      213: -4541382828894354359
+    second: SasukeSpritesheet_421
+  - first:
+      213: -9205948217725818970
+    second: SasukeSpritesheet_422
+  - first:
+      213: 5545098191808855536
+    second: SasukeSpritesheet_423
+  - first:
+      213: 2503909025176069080
+    second: SasukeSpritesheet_424
+  - first:
+      213: -3680512047992826058
+    second: SasukeSpritesheet_425
+  - first:
+      213: 504072237953393120
+    second: SasukeSpritesheet_426
+  - first:
+      213: -3129989128674180673
+    second: SasukeSpritesheet_427
+  - first:
+      213: 6224438982799277256
+    second: SasukeSpritesheet_428
+  - first:
+      213: 6944330229793274132
+    second: SasukeSpritesheet_429
+  - first:
+      213: 4162786121236529904
+    second: SasukeSpritesheet_430
+  - first:
+      213: 4516569129453684425
+    second: SasukeSpritesheet_431
+  - first:
+      213: 3325467545357893536
+    second: SasukeSpritesheet_432
+  - first:
+      213: 318253521044024390
+    second: SasukeSpritesheet_433
+  - first:
+      213: 4735896502070647815
+    second: SasukeSpritesheet_434
+  - first:
+      213: 272548958597525691
+    second: SasukeSpritesheet_435
+  - first:
+      213: -9082006281753592241
+    second: SasukeSpritesheet_436
+  - first:
+      213: 2384872697664583800
+    second: SasukeSpritesheet_437
+  - first:
+      213: -8669558164700384226
+    second: SasukeSpritesheet_438
+  - first:
+      213: 678478752527563850
+    second: SasukeSpritesheet_439
+  - first:
+      213: -4533958423417120983
+    second: SasukeSpritesheet_440
+  - first:
+      213: -7982123037228521805
+    second: SasukeSpritesheet_441
+  - first:
+      213: -3875673133730416928
+    second: SasukeSpritesheet_442
+  - first:
+      213: 4047155736943291243
+    second: SasukeSpritesheet_443
+  - first:
+      213: 7814700530018665769
+    second: SasukeSpritesheet_444
+  - first:
+      213: 8094629000616835686
+    second: SasukeSpritesheet_445
+  - first:
+      213: 3511872577086669328
+    second: SasukeSpritesheet_446
+  - first:
+      213: 2413066514438098557
+    second: SasukeSpritesheet_447
+  - first:
+      213: 8078093178229883586
+    second: SasukeSpritesheet_448
+  - first:
+      213: -1991644010305004629
+    second: SasukeSpritesheet_449
+  - first:
+      213: 6753114899020462303
+    second: SasukeSpritesheet_450
+  - first:
+      213: -4203447043299657062
+    second: SasukeSpritesheet_451
+  - first:
+      213: 7514437958892354871
+    second: SasukeSpritesheet_452
+  - first:
+      213: -2091948071761099995
+    second: SasukeSpritesheet_453
+  - first:
+      213: -3924412815230839417
+    second: SasukeSpritesheet_454
+  - first:
+      213: 2946085076273497236
+    second: SasukeSpritesheet_455
+  - first:
+      213: 7249160228710408911
+    second: SasukeSpritesheet_456
+  - first:
+      213: 1143877013893344767
+    second: SasukeSpritesheet_457
+  - first:
+      213: 6147393700137143272
+    second: SasukeSpritesheet_458
+  - first:
+      213: -4947725516896244206
+    second: SasukeSpritesheet_459
+  - first:
+      213: 962167757196736362
+    second: SasukeSpritesheet_460
+  - first:
+      213: -3403835418842935869
+    second: SasukeSpritesheet_461
+  - first:
+      213: -4299872627325561533
+    second: SasukeSpritesheet_462
+  - first:
+      213: -2401717345329374441
+    second: SasukeSpritesheet_463
+  - first:
+      213: -7312065834118541565
+    second: SasukeSpritesheet_464
+  - first:
+      213: 6806589912021769738
+    second: SasukeSpritesheet_465
+  - first:
+      213: 3231881365097482019
+    second: SasukeSpritesheet_466
+  - first:
+      213: -7359394198434438969
+    second: SasukeSpritesheet_467
+  - first:
+      213: 1471454886591848640
+    second: SasukeSpritesheet_468
+  - first:
+      213: -7741609302843332225
+    second: SasukeSpritesheet_469
+  - first:
+      213: -3911405694456130844
+    second: SasukeSpritesheet_470
+  - first:
+      213: -240167724761985651
+    second: SasukeSpritesheet_471
+  - first:
+      213: -3172814511651016835
+    second: SasukeSpritesheet_472
+  - first:
+      213: 4948534367426460900
+    second: SasukeSpritesheet_473
+  - first:
+      213: 2582226607497974072
+    second: SasukeSpritesheet_474
+  - first:
+      213: 701796802388928568
+    second: SasukeSpritesheet_475
+  - first:
+      213: 7432251815645651825
+    second: SasukeSpritesheet_476
+  - first:
+      213: -9199405547670583539
+    second: SasukeSpritesheet_477
+  - first:
+      213: -8375404697024144689
+    second: SasukeSpritesheet_478
+  - first:
+      213: 1994660300814235834
+    second: SasukeSpritesheet_479
+  - first:
+      213: 5858730630938354202
+    second: SasukeSpritesheet_480
+  - first:
+      213: -6335320733789722606
+    second: SasukeSpritesheet_481
+  - first:
+      213: 2197067164859330587
+    second: SasukeSpritesheet_482
+  - first:
+      213: -8632212614278481267
+    second: SasukeSpritesheet_483
+  - first:
+      213: -3092352123810135128
+    second: SasukeSpritesheet_484
+  - first:
+      213: 2998035531373179148
+    second: SasukeSpritesheet_485
+  - first:
+      213: 942528915733718729
+    second: SasukeSpritesheet_486
+  - first:
+      213: 6423123875180597265
+    second: SasukeSpritesheet_487
+  - first:
+      213: -1000856321037804136
+    second: SasukeSpritesheet_488
+  - first:
+      213: 5635840868237020539
+    second: SasukeSpritesheet_489
+  - first:
+      213: -102085585659754630
+    second: SasukeSpritesheet_490
+  - first:
+      213: 1268029027759527608
+    second: SasukeSpritesheet_491
+  - first:
+      213: -7255173184490128859
+    second: SasukeSpritesheet_492
+  - first:
+      213: -4466400672415438146
+    second: SasukeSpritesheet_493
+  - first:
+      213: 3220930454242084206
+    second: SasukeSpritesheet_494
+  - first:
+      213: 7016045257182965512
+    second: SasukeSpritesheet_495
+  - first:
+      213: 229791605511153378
+    second: SasukeSpritesheet_496
+  - first:
+      213: -4518030043524866493
+    second: SasukeSpritesheet_497
+  - first:
+      213: 6653141520741083649
+    second: SasukeSpritesheet_498
+  - first:
+      213: 6067692795813095760
+    second: SasukeSpritesheet_499
+  - first:
+      213: 5266955715582397938
+    second: SasukeSpritesheet_500
+  - first:
+      213: 2459182180835078007
+    second: SasukeSpritesheet_501
+  - first:
+      213: -40030988198680892
+    second: SasukeSpritesheet_502
+  - first:
+      213: -5530276592903992789
+    second: SasukeSpritesheet_503
+  - first:
+      213: -5131548746276422216
+    second: SasukeSpritesheet_504
+  - first:
+      213: 5821054990052502728
+    second: SasukeSpritesheet_505
+  - first:
+      213: 4432810046131660597
+    second: SasukeSpritesheet_506
+  - first:
+      213: -7752365693899589545
+    second: SasukeSpritesheet_507
+  - first:
+      213: 2168041145757433050
+    second: SasukeSpritesheet_508
+  - first:
+      213: 975673428715061250
+    second: SasukeSpritesheet_509
+  - first:
+      213: 6348428981299783102
+    second: SasukeSpritesheet_510
+  - first:
+      213: 3885452674077054430
+    second: SasukeSpritesheet_511
+  - first:
+      213: -3882969573467597839
+    second: SasukeSpritesheet_512
+  - first:
+      213: -1330308076710087942
+    second: SasukeSpritesheet_513
+  - first:
+      213: 6089941563184272113
+    second: SasukeSpritesheet_514
+  - first:
+      213: 8716014631836826438
+    second: SasukeSpritesheet_515
+  - first:
+      213: 5197478077830166344
+    second: SasukeSpritesheet_516
+  - first:
+      213: -8946220864595067222
+    second: SasukeSpritesheet_517
+  - first:
+      213: -7714250119482769247
+    second: SasukeSpritesheet_518
+  - first:
+      213: -1054098919410396860
+    second: SasukeSpritesheet_519
+  - first:
+      213: 9179354893664123672
+    second: SasukeSpritesheet_520
+  - first:
+      213: 1598559490342140124
+    second: SasukeSpritesheet_521
+  - first:
+      213: -4111644933242379927
+    second: SasukeSpritesheet_522
+  - first:
+      213: 8796312243945719788
+    second: SasukeSpritesheet_523
+  - first:
+      213: 3801471072344875927
+    second: SasukeSpritesheet_524
+  - first:
+      213: 561285243652750689
+    second: SasukeSpritesheet_525
+  - first:
+      213: -7474785587468450816
+    second: SasukeSpritesheet_526
+  - first:
+      213: -1923564916276825573
+    second: SasukeSpritesheet_527
+  - first:
+      213: -7678273107391861241
+    second: SasukeSpritesheet_528
+  - first:
+      213: 5792536032743092427
+    second: SasukeSpritesheet_529
+  - first:
+      213: -2081686401420467339
+    second: SasukeSpritesheet_530
+  - first:
+      213: 9089472594944580958
+    second: SasukeSpritesheet_531
+  - first:
+      213: 7786367123341339591
+    second: SasukeSpritesheet_532
+  - first:
+      213: 2162657345166067216
+    second: SasukeSpritesheet_533
+  - first:
+      213: 4048703343096342110
+    second: SasukeSpritesheet_534
+  - first:
+      213: -7613296935428371405
+    second: SasukeSpritesheet_535
+  - first:
+      213: 4037410820331212093
+    second: SasukeSpritesheet_536
+  - first:
+      213: 7977418277725720700
+    second: SasukeSpritesheet_537
+  - first:
+      213: -201206565907538328
+    second: SasukeSpritesheet_538
+  - first:
+      213: 5794737632805623968
+    second: SasukeSpritesheet_539
+  - first:
+      213: 467031712918261737
+    second: SasukeSpritesheet_540
+  - first:
+      213: 8032154094211951748
+    second: SasukeSpritesheet_541
+  - first:
+      213: -6702160553322071236
+    second: SasukeSpritesheet_542
+  - first:
+      213: 154414102171032756
+    second: SasukeSpritesheet_543
+  - first:
+      213: -3418418219308343031
+    second: SasukeSpritesheet_544
+  - first:
+      213: 771416678580167943
+    second: SasukeSpritesheet_545
+  - first:
+      213: 5995915311797573090
+    second: SasukeSpritesheet_546
+  - first:
+      213: 931971414098407150
+    second: SasukeSpritesheet_547
+  - first:
+      213: 7240974917926081031
+    second: SasukeSpritesheet_548
+  - first:
+      213: 5296314331327332957
+    second: SasukeSpritesheet_549
+  - first:
+      213: 8216710662165013936
+    second: SasukeSpritesheet_550
+  - first:
+      213: 3088106470724521642
+    second: SasukeSpritesheet_551
+  - first:
+      213: 3359841247044470985
+    second: SasukeSpritesheet_552
+  - first:
+      213: 8146111366475466455
+    second: SasukeSpritesheet_553
+  - first:
+      213: 4017247151812299827
+    second: SasukeSpritesheet_554
+  - first:
+      213: -1231056219737829286
+    second: SasukeSpritesheet_555
+  - first:
+      213: 2786431331792767429
+    second: SasukeSpritesheet_556
+  - first:
+      213: 3756916065778670116
+    second: SasukeSpritesheet_557
+  - first:
+      213: -1280280552858569181
+    second: SasukeSpritesheet_558
+  - first:
+      213: -276384137410822296
+    second: SasukeSpritesheet_559
+  - first:
+      213: -7243334849538626540
+    second: SasukeSpritesheet_560
+  - first:
+      213: 4620909207595227578
+    second: SasukeSpritesheet_561
+  - first:
+      213: -1506796928237563021
+    second: SasukeSpritesheet_562
+  - first:
+      213: -3803861329808625214
+    second: SasukeSpritesheet_563
+  - first:
+      213: 4954100956618068308
+    second: SasukeSpritesheet_564
+  - first:
+      213: -7722811677952028799
+    second: SasukeSpritesheet_565
+  - first:
+      213: -7083533211486650070
+    second: SasukeSpritesheet_566
+  - first:
+      213: 2133659082348406943
+    second: SasukeSpritesheet_567
+  - first:
+      213: 7828565341865057085
+    second: SasukeSpritesheet_568
+  - first:
+      213: -2731014166096237809
+    second: SasukeSpritesheet_569
+  - first:
+      213: -3505430027245831883
+    second: SasukeSpritesheet_570
+  - first:
+      213: -5148688640217944740
+    second: SasukeSpritesheet_571
+  - first:
+      213: -3398846274834091273
+    second: SasukeSpritesheet_572
+  - first:
+      213: -3684824497174607823
+    second: SasukeSpritesheet_573
+  - first:
+      213: 6699604225569028307
+    second: SasukeSpritesheet_574
+  - first:
+      213: -5598779320811284354
+    second: SasukeSpritesheet_575
+  - first:
+      213: 8788831144387945192
+    second: SasukeSpritesheet_576
+  - first:
+      213: -9155555604446817591
+    second: SasukeSpritesheet_577
+  - first:
+      213: -417741188527947504
+    second: SasukeSpritesheet_578
+  - first:
+      213: -289582329968670172
+    second: SasukeSpritesheet_579
+  - first:
+      213: 1899062058575031194
+    second: SasukeSpritesheet_580
+  - first:
+      213: -2879664684371593519
+    second: SasukeSpritesheet_581
+  - first:
+      213: 5103073582167709174
+    second: SasukeSpritesheet_582
+  - first:
+      213: -6632700779878448769
+    second: SasukeSpritesheet_583
+  - first:
+      213: 640500422789885758
+    second: SasukeSpritesheet_584
+  - first:
+      213: 7176989480254575148
+    second: SasukeSpritesheet_585
+  - first:
+      213: 1684026828772789682
+    second: SasukeSpritesheet_586
+  - first:
+      213: 1927984421774094200
+    second: SasukeSpritesheet_587
+  - first:
+      213: 2711554208075744915
+    second: SasukeSpritesheet_588
+  - first:
+      213: -5186919585741968785
+    second: SasukeSpritesheet_589
+  - first:
+      213: -114778987379773696
+    second: SasukeSpritesheet_590
+  - first:
+      213: -1282304498583630781
+    second: SasukeSpritesheet_591
+  - first:
+      213: 5193963981379453189
+    second: SasukeSpritesheet_592
+  - first:
+      213: -5732378074183814566
+    second: SasukeSpritesheet_593
+  - first:
+      213: -8620856219669077070
+    second: SasukeSpritesheet_594
+  - first:
+      213: 3822011815566714739
+    second: SasukeSpritesheet_595
+  - first:
+      213: -8260867447222072095
+    second: SasukeSpritesheet_596
+  - first:
+      213: -3922661308181213623
+    second: SasukeSpritesheet_597
+  - first:
+      213: -4778084815436385285
+    second: SasukeSpritesheet_598
+  - first:
+      213: -3376001141033273264
+    second: SasukeSpritesheet_599
+  - first:
+      213: -5128794546071630124
+    second: SasukeSpritesheet_600
+  - first:
+      213: -725802403875216204
+    second: SasukeSpritesheet_601
+  - first:
+      213: -3858626074385535686
+    second: SasukeSpritesheet_602
+  - first:
+      213: 4372424614535633554
+    second: SasukeSpritesheet_603
+  - first:
+      213: -1099161865148346991
+    second: SasukeSpritesheet_604
+  - first:
+      213: -2276756304437363350
+    second: SasukeSpritesheet_605
+  - first:
+      213: 8197381526271034050
+    second: SasukeSpritesheet_606
+  - first:
+      213: 5851351620421937708
+    second: SasukeSpritesheet_607
+  - first:
+      213: -5570390347345309693
+    second: SasukeSpritesheet_608
+  - first:
+      213: 7576104130659751205
+    second: SasukeSpritesheet_609
+  - first:
+      213: 3592155676193699605
+    second: SasukeSpritesheet_610
+  - first:
+      213: 9105746577142027351
+    second: SasukeSpritesheet_611
+  - first:
+      213: 3710700281021978220
+    second: SasukeSpritesheet_612
+  - first:
+      213: 6975760037320941606
+    second: SasukeSpritesheet_613
+  - first:
+      213: -7275063392521181019
+    second: SasukeSpritesheet_614
+  - first:
+      213: -6628193210565078970
+    second: SasukeSpritesheet_615
+  - first:
+      213: 1567277894610004256
+    second: SasukeSpritesheet_616
+  - first:
+      213: -4438475243938419540
+    second: SasukeSpritesheet_617
+  - first:
+      213: 3587458771089352625
+    second: SasukeSpritesheet_618
+  - first:
+      213: -1351758828337564029
+    second: SasukeSpritesheet_619
+  - first:
+      213: -7218376876061269124
+    second: SasukeSpritesheet_620
+  - first:
+      213: 9136320931168902499
+    second: SasukeSpritesheet_621
+  - first:
+      213: -4949030254044359147
+    second: SasukeSpritesheet_622
+  - first:
+      213: -971761740738704623
+    second: SasukeSpritesheet_623
+  - first:
+      213: -1735430761874687837
+    second: SasukeSpritesheet_624
+  - first:
+      213: -3805346156339465794
+    second: SasukeSpritesheet_625
+  - first:
+      213: -1014766483771350523
+    second: SasukeSpritesheet_626
+  - first:
+      213: -8518626126899584521
+    second: SasukeSpritesheet_627
+  - first:
+      213: 5358605292971808178
+    second: SasukeSpritesheet_628
+  - first:
+      213: -1790238427785007940
+    second: SasukeSpritesheet_629
+  - first:
+      213: -6007574133069272119
+    second: SasukeSpritesheet_630
+  - first:
+      213: 1146041176489799017
+    second: SasukeSpritesheet_631
+  - first:
+      213: -3884211682946333347
+    second: SasukeSpritesheet_632
+  - first:
+      213: 990293428159875890
+    second: SasukeSpritesheet_633
+  - first:
+      213: -2147530753052111630
+    second: SasukeSpritesheet_634
+  - first:
+      213: -2181829067035841102
+    second: SasukeSpritesheet_635
+  - first:
+      213: 2245263284850579039
+    second: SasukeSpritesheet_636
+  - first:
+      213: 5366739265328533072
+    second: SasukeSpritesheet_637
+  - first:
+      213: -3173886875531203861
+    second: SasukeSpritesheet_638
+  - first:
+      213: -7027973810196890664
+    second: SasukeSpritesheet_639
+  - first:
+      213: 6640515062530256906
+    second: SasukeSpritesheet_640
+  - first:
+      213: -981966313860130335
+    second: SasukeSpritesheet_641
+  - first:
+      213: 4330556990356132643
+    second: SasukeSpritesheet_642
+  - first:
+      213: -3302278914559500383
+    second: SasukeSpritesheet_643
+  - first:
+      213: -3028413827712149391
+    second: SasukeSpritesheet_644
+  - first:
+      213: -114184629345405994
+    second: SasukeSpritesheet_645
+  - first:
+      213: 6078865970805048690
+    second: SasukeSpritesheet_646
+  - first:
+      213: 999299245526564324
+    second: SasukeSpritesheet_647
+  - first:
+      213: -2418350731235799976
+    second: SasukeSpritesheet_648
+  - first:
+      213: 1942684456987413561
+    second: SasukeSpritesheet_649
+  - first:
+      213: -3624889208039048749
+    second: SasukeSpritesheet_650
+  - first:
+      213: 5320192902707822537
+    second: SasukeSpritesheet_651
+  - first:
+      213: 2786061978110229834
+    second: SasukeSpritesheet_652
+  - first:
+      213: 1972186031048521177
+    second: SasukeSpritesheet_653
+  - first:
+      213: -4246429031482789803
+    second: SasukeSpritesheet_654
+  - first:
+      213: -3371272194986106746
+    second: SasukeSpritesheet_655
+  - first:
+      213: 1277336500723882629
+    second: SasukeSpritesheet_656
+  - first:
+      213: -8801154091683621710
+    second: SasukeSpritesheet_657
+  - first:
+      213: -753157097597198245
+    second: SasukeSpritesheet_658
+  - first:
+      213: -3695044981539465872
+    second: SasukeSpritesheet_659
+  - first:
+      213: 9024387822456641036
+    second: SasukeSpritesheet_660
+  - first:
+      213: -5250031622216927141
+    second: SasukeSpritesheet_661
+  - first:
+      213: -2463462690475107786
+    second: SasukeSpritesheet_662
+  - first:
+      213: -4849543378500704772
+    second: SasukeSpritesheet_663
+  - first:
+      213: 2253066041286242266
+    second: SasukeSpritesheet_664
+  - first:
+      213: 8041291935694129
+    second: SasukeSpritesheet_665
+  - first:
+      213: -639799221762521050
+    second: SasukeSpritesheet_666
+  - first:
+      213: 5634073227667955190
+    second: SasukeSpritesheet_667
+  - first:
+      213: -6276831461668931235
+    second: SasukeSpritesheet_668
+  - first:
+      213: 5730878000942172402
+    second: SasukeSpritesheet_669
+  - first:
+      213: 6294900650293679802
+    second: SasukeSpritesheet_670
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +2053,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +2084,4710 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SasukeSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1907
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da920666ac8373aa0800000000000000
+      internalID: -6181409521590589011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1907
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867fa65bb4fca9240800000000000000
+      internalID: 4799376276989867880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1907
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6398bf52687739650800000000000000
+      internalID: 6238461326884833590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1907
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b05190dd5b68f740800000000000000
+      internalID: 5186013021592441010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1907
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51704bf314536f970800000000000000
+      internalID: 8788270277218010901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1907
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b80d30725afb3f0800000000000000
+      internalID: -882805414955021486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1907
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfe0ecff35bc5950800000000000000
+      internalID: 6439220853663133645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1907
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7288695d694515c30800000000000000
+      internalID: 4346348122194479143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1907
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77feaa5d4789fa610800000000000000
+      internalID: 1634692817327157111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1907
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dac27a65f9d7d9d0800000000000000
+      internalID: -2749489399410275627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1907
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cfe6da2bce8ca50800000000000000
+      internalID: 6541738710913711262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1907
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c25badf585240a0800000000000000
+      internalID: -6898854510463734705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1827
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba1fa25c51cb99c0800000000000000
+      internalID: -3919326448427525452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1827
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f47cb4fa4f660cc0800000000000000
+      internalID: -3745183672387734279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1827
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bf7f4f724c3cf60800000000000000
+      internalID: 8053496234561239896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1827
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70ce580e545d0180800000000000000
+      internalID: -9147562505275522947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1824
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e806763ebdebf20800000000000000
+      internalID: 3440428935096077835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1824
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3720fc5e93c0b1b40800000000000000
+      internalID: 5411932820024001139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1822
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3ba1d48d35f6b70800000000000000
+      internalID: 8894419977551655857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1821
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018cdf0c7ba37f760800000000000000
+      internalID: 7491521066045392912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1823
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b244362f88c9f70800000000000000
+      internalID: 9195375113812585298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1824
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fb58d918c933820800000000000000
+      internalID: 2896831065836863269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1773
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c274aba6bf8a66a50800000000000000
+      internalID: 6514079708818851628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1771
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed584a9a8312bc1d0800000000000000
+      internalID: -3329530972262332962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1771
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e156e63fd4afc0800000000000000
+      internalID: -3484414784792565949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1771
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b5458d100c59c40800000000000000
+      internalID: 5518528032569318221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1771
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1f4c3d51d3e1db0800000000000000
+      internalID: -4819347387283344989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1776
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ab99e62aa95cbd0800000000000000
+      internalID: -2610510386560386552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1765
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedaf3f7abd255d30800000000000000
+      internalID: 4419488888356056555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1706
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83ec274c6737d930800000000000000
+      internalID: 4167860918344803211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1707
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44507a71b658392f0800000000000000
+      internalID: -967282799949707964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1708
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c966cc3248f5b80800000000000000
+      internalID: -8403853090362057693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1708
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f008c5f63e5f4340800000000000000
+      internalID: 4850198913846083830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1706
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7adb15e4060f510800000000000000
+      internalID: 1580869358702143416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1706
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324ce10472bb0eba0800000000000000
+      internalID: -6061639321186810845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1700
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ad05d3c4b58bc10800000000000000
+      internalID: 2069504411781093980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1700
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a9226e8eeb11930800000000000000
+      internalID: 4112277842268691100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1631
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89013bdd130e36eb0800000000000000
+      internalID: -4727688679031369576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1630
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c71245e4bb989d0800000000000000
+      internalID: -2771478150576505728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1629
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d975cf03cfcf510800000000000000
+      internalID: 1584418456249802128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1628
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f821c0bfb49f26f50800000000000000
+      internalID: 6873330086050534031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1628
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143e569279740a090800000000000000
+      internalID: -8025335821414046911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1628
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee747a9d82d0ca0800000000000000
+      internalID: -6049133809209184648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1628
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f180e4a7d57e130800000000000000
+      internalID: 3595945607355178821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1628
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2c6b48e3457d00800000000000000
+      internalID: 969755959745064702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1557
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fbb9bfde0530fd0800000000000000
+      internalID: -2376967195262730495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1557
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffa272500c69a2e0800000000000000
+      internalID: -2114039801434689541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1557
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b22483a5cc64d600800000000000000
+      internalID: 492137855397929649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1557
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4c8371eb6901f70800000000000000
+      internalID: 9155983785621767343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1476
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fae07da09a5d8ee0800000000000000
+      internalID: -1257249143534851343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1476
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158222706197f6ff0800000000000000
+      internalID: -40680736107124655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1476
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38babd5b862109c10800000000000000
+      internalID: 2058165270645287811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1476
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3812efeb43c3a2a0800000000000000
+      internalID: -6727318687446853572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1476
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd03085e3ef999830800000000000000
+      internalID: 4078466738717470940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1476
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b1e487f66e156b0800000000000000
+      internalID: -5309209119258961087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1476
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec269d59054fe380800000000000000
+      internalID: -8939850828780000026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1476
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb091418d8cdd7b0800000000000000
+      internalID: -5197777564540007459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1476
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beea3a615f61fe440800000000000000
+      internalID: 4967214155915570923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1476
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e16524d87e9df470800000000000000
+      internalID: 8430068319299920353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1476
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fbbbcf982696e80800000000000000
+      internalID: -8184902502978961614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1476
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c24307e6362470800000000000000
+      internalID: 8369437323334697136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1400
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d132acbbfa3c610800000000000000
+      internalID: 1640347910378036587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1400
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27dc97792b809c00800000000000000
+      internalID: 905376535318157102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1400
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721826648a66b0370800000000000000
+      internalID: 8289832412026929447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1404
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8cee19164e53650800000000000000
+      internalID: 6212122368738773238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1404
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d6d7b7940eca310800000000000000
+      internalID: 1417754588923915654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1404
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8586775cc7094fca0800000000000000
+      internalID: -5983999139305265064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1404
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09b784f00fa3ad00800000000000000
+      internalID: 982821562334296333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1404
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507b10106baa53d20800000000000000
+      internalID: 3257697604150081285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1404
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c8ba807df5a4a70800000000000000
+      internalID: 8811960998071864461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1404
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a7fa96a9f511e30800000000000000
+      internalID: 4472461021758323358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1404
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdec120fc9145a60800000000000000
+      internalID: 7661777242948431302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1404
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b771f8cef218c8620800000000000000
+      internalID: 2777737113013000059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1312
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5ae3fc53ad4fdb0800000000000000
+      internalID: -4758938981578660371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1312
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a179b98ab7a0f0800000000000000
+      internalID: -1105710082811648951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1312
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073fdf91be8ced590800000000000000
+      internalID: -7647454205149580432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1310
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd10fe56d90e4c0800000000000000
+      internalID: -4260232186365354949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_196
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1313
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5061e7be4efee11d0800000000000000
+      internalID: -3377998903998802427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_197
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1311
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8e80be430dd1f80800000000000000
+      internalID: -8134116426261141259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_198
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1312
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7913c764fb2132b80800000000000000
+      internalID: -8420866265522097769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_199
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1313
+        width: 72
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e2b6110b75ebb10800000000000000
+      internalID: 1999131698317176388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_200
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1312
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abcc949d78af0d20800000000000000
+      internalID: 3246999113675099047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_218
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1314
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df14f8f780813f710800000000000000
+      internalID: 1725749506991931901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_220
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1249
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f319e82e2b17e27b0800000000000000
+      internalID: -5247131502720937665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_221
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1250
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd76acd1d731f75a0800000000000000
+      internalID: -6521472307317544993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_223
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1248
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87354353b6a386810800000000000000
+      internalID: 1758719886616712056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_226
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1248
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce69aeeb138cd800800000000000000
+      internalID: 638529403171204803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_229
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1249
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983444a3bd11af8f0800000000000000
+      internalID: -506072374852697207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_239
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1177
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba414308fb12fcc30800000000000000
+      internalID: 4381758068828148907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_240
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1181
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2638735b2fc41f0800000000000000
+      internalID: -1059204952204549432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_241
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1183
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce4ff405b93c9490800000000000000
+      internalID: -7738246610093650236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_242
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1181
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514f1b89548be5800800000000000000
+      internalID: 603122009168278549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_243
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1182
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863cdd79265b621b0800000000000000
+      internalID: -5681654444821986456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_245
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1181
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84373c02c8a66440800000000000000
+      internalID: 4928812393585652879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_248
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1181
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914ab42ba492c4bd0800000000000000
+      internalID: -2644693480377703399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_251
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1184
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b21123af0f100e0800000000000000
+      internalID: -2305296576864507088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_287
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1083
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4558f7ea55ef77f00800000000000000
+      internalID: 1114639076750755156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_288
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1083
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07c5516b2985ad0800000000000000
+      internalID: -2713257464750640975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_289
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1083
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fd0af1cf43ae920800000000000000
+      internalID: 3020284757572378465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_290
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1080
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8e04866136f0c0800000000000000
+      internalID: -4542388857784594811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_291
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1080
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292fb3e19a39188f0800000000000000
+      internalID: -539988125741747566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_292
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1080
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebce4e252a08d0e60800000000000000
+      internalID: 7930135953533103294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_293
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1098
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42159db578e7d48a0800000000000000
+      internalID: -6319255582304284380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_294
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1102
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd7c79254fd2be0800000000000000
+      internalID: -1500274465273554093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_295
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1099
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450c511d58690c930800000000000000
+      internalID: 4161491557173018708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_296
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1095
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c03f2952f9536b0800000000000000
+      internalID: -5317168801312994207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_297
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1097
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe15463b71cfd8790800000000000000
+      internalID: -7526082223542087185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_308
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 989
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb375b5ebafd692a0800000000000000
+      internalID: -6730946663672351809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_309
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 989
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce8f5a482e79cdb0800000000000000
+      internalID: -4771143618710761785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_310
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 991
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee75fbae19c79af70800000000000000
+      internalID: 9199020680031459310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_311
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 991
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e84f5f61fc706e40800000000000000
+      internalID: 5647651309120080101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_312
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 991
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c374ae2b6f028fed0800000000000000
+      internalID: -2380116159129565380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_313
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 989
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b0f56ad547d0f0800000000000000
+      internalID: -1092327580298595318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_316
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 990
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880dc5626c3bed630800000000000000
+      internalID: 3953795186506387592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_317
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 995
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07365faf49bf69510800000000000000
+      internalID: 1555707338587202416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_318
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 995
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8113a1163dbafb40800000000000000
+      internalID: 5474896336944042381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_319
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 995
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5395d91f40b52410800000000000000
+      internalID: 1451760308679185242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_320
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 995
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f6aad22c7154aa0800000000000000
+      internalID: -6177505191111528610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_335
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 913
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c10540823cf0910800000000000000
+      internalID: 1805876552237325448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_337
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 914
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39ac693e00807290800000000000000
+      internalID: -7894669348199159491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_338
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 917
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6341a91db6cd3e100800000000000000
+      internalID: 136194769387394102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_339
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 918
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b84b0ccd4cb51610800000000000000
+      internalID: 1591385085667133622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_340
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 923
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851b36b5d6c58a500800000000000000
+      internalID: 407677391031480664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_341
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 923
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c904f350a34643770800000000000000
+      internalID: 8589600589661290652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_342
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 923
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca2d0f26f0b43610800000000000000
+      internalID: 1600098339021204161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_343
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 923
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d9cd520dd51da00800000000000000
+      internalID: 779507359081602401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_344
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 923
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc20f2edd5ec68a0800000000000000
+      internalID: -6310416236694983502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_345
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 923
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f4ea056213d3c10800000000000000
+      internalID: 2034836647273451415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_346
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 923
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edc057cac7a14420800000000000000
+      internalID: 2612553748220792296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_347
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 923
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec3804366a7da3b0800000000000000
+      internalID: -5499604990571299609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_348
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 923
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d85db88ec4ee8a0800000000000000
+      internalID: -6273992669218370178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_349
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 858
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c8d3a71213a2f50800000000000000
+      internalID: 6857347402479537277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_350
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 858
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7e2b07b73531470800000000000000
+      internalID: 8364120722593998774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_351
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 858
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5411d619aff8250800000000000000
+      internalID: 5949249135286765021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_352
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 858
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527232913b0fbf0e0800000000000000
+      internalID: -2234928138047772891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_353
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 858
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf117b0bd987ba80800000000000000
+      internalID: -8451134601854640183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_354
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 856
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5db615b7094be60800000000000000
+      internalID: 7977159699301389754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_355
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 858
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1e3bcfa6fe887b0800000000000000
+      internalID: -5221660525150871085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_356
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 856
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccc6a9611d87b1f0800000000000000
+      internalID: -1029198883904369459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_362
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 742
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f8c202ba35544e0800000000000000
+      internalID: -1998098865224642688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_363
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 742
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e61473736d26b0800000000000000
+      internalID: -5319486237334640201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_364
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 742
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeff3b50f40809c0800000000000000
+      internalID: -3960910441902768420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_365
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 740
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134d8b7835a738c60800000000000000
+      internalID: 7819227877223224369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_368
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 744
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f9d7f8bd737d3d0800000000000000
+      internalID: -3182013195569225974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_369
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 744
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd5b74cb118cbfd0800000000000000
+      internalID: -2324841351369499173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_370
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 744
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bc84552cafa97a0800000000000000
+      internalID: -6369503010400711786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_371
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 743
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c84627f80c50580800000000000000
+      internalID: -8861464969449534396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_372
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 743
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439802b4d630b3060800000000000000
+      internalID: 6934139819213752628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_373
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 742
+        width: 84
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465a3f0d792990f0800000000000000
+      internalID: -1109810216066984377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_376
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 743
+        width: 83
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5697542346778a150800000000000000
+      internalID: 5884084185383401829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_430
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 655
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ca300cef25c930800000000000000
+      internalID: 4162786121236529904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_431
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 655
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6059481b31eae30800000000000000
+      internalID: 4516569129453684425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_432
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 655
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afb5290d1f662e20800000000000000
+      internalID: 3325467545357893536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_434
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 655
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c9fead6c849b140800000000000000
+      internalID: 4735896502070647815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_436
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 654
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ef530c76b36f180800000000000000
+      internalID: -9082006281753592241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_437
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 655
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87833da3515c81120800000000000000
+      internalID: 2384872697664583800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_438
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 655
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14327158ca8fa780800000000000000
+      internalID: -8669558164700384226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_439
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 655
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c3e08a4d07a6900800000000000000
+      internalID: 678478752527563850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_440
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 652
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92715d9f5d42411c0800000000000000
+      internalID: -4533958423417120983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_441
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 655
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b62884836dc93190800000000000000
+      internalID: -7982123037228521805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_443
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 655
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b603333b26a2830800000000000000
+      internalID: 4047155736943291243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_445
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 651
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a775a5036e55070800000000000000
+      internalID: 8094629000616835686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_446
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 649
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012cfad808dacb030800000000000000
+      internalID: 3511872577086669328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_447
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 661
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e097cb53fec7120800000000000000
+      internalID: 2413066514438098557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_492
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 556
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ab682ad62705b90800000000000000
+      internalID: -7255173184490128859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_493
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 556
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaac10a0482402c0800000000000000
+      internalID: -4466400672415438146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_494
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 555
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e654653de2b03bc20800000000000000
+      internalID: 3220930454242084206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_496
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 562
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6ebda6f32603300800000000000000
+      internalID: 229791605511153378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_498
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 556
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aac2896f4b45c50800000000000000
+      internalID: 6653141520741083649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_501
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 559
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f25a60a25c02220800000000000000
+      internalID: 2459182180835078007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_503
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 582
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2acc4a4db28043b0800000000000000
+      internalID: -5530276592903992789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_535
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 568
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cc83236c2285690800000000000000
+      internalID: -7613296935428371405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_543
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 566
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc173ccec6942200800000000000000
+      internalID: 154414102171032756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_546
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 555
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e515075535c53350800000000000000
+      internalID: 5995915311797573090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_559
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 482
+        width: 87
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f331467161a2cf0800000000000000
+      internalID: -276384137410822296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_560
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 482
+        width: 91
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cea08c4518a7b90800000000000000
+      internalID: -7243334849538626540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_561
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 481
+        width: 87
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab99b021174c02040800000000000000
+      internalID: 4620909207595227578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_562
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 477
+        width: 90
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37310c75d28c61be0800000000000000
+      internalID: -1506796928237563021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_563
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 482
+        width: 83
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c179e53648f53bc0800000000000000
+      internalID: -3803861329808625214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_564
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 481
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45194a4729080c440800000000000000
+      internalID: 4954100956618068308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_565
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 481
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f4e6432bf03d490800000000000000
+      internalID: -7722811677952028799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_566
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 481
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2108a6031c32bd90800000000000000
+      internalID: -7083533211486650070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_585
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 400
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c221a4f28e9c99360800000000000000
+      internalID: 7176989480254575148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_586
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 400
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdca397a7dde5710800000000000000
+      internalID: 1684026828772789682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_588
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 400
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39602919f2061a520800000000000000
+      internalID: 2711554208075744915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_590
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 400
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fac8d7e19386ef0800000000000000
+      internalID: -114778987379773696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_591
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 400
+        width: 87
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c890c3ad6543ee0800000000000000
+      internalID: -1282304498583630781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_593
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 400
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52390253808270b0800000000000000
+      internalID: -5732378074183814566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_594
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 400
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b368e681f09c5880800000000000000
+      internalID: -8620856219669077070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_595
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 400
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37723321f738a0530800000000000000
+      internalID: 3822011815566714739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_596
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 400
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec8dbf13d08b5d80800000000000000
+      internalID: -8260867447222072095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_597
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 400
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e80b7c258ef89c0800000000000000
+      internalID: -3922661308181213623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_605
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 340
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d31e134365760e0800000000000000
+      internalID: -2276756304437363350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_630
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 149
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cba49cc72fc0aca0800000000000000
+      internalID: -6007574133069272119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_631
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 149
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d25a6c06e87ef00800000000000000
+      internalID: 1146041176489799017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_632
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 152
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55cf85cd02881ac0800000000000000
+      internalID: -3884211682946333347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_633
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 152
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8fd840aa3ebd00800000000000000
+      internalID: 990293428159875890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_634
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 152
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc0a1088207232e0800000000000000
+      internalID: -2147530753052111630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_636
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 153
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56deb8cf07c82f10800000000000000
+      internalID: 2245263284850579039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_637
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 152
+        width: 75
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e4c087dec7a7a40800000000000000
+      internalID: 5366739265328533072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_639
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 162
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db37703e0f977e90800000000000000
+      internalID: -7027973810196890664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_642
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 152
+        width: 73
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32313c173aa391c30800000000000000
+      internalID: 4330556990356132643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_644
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 151
+        width: 73
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178165e3ba9e8f5d0800000000000000
+      internalID: -3028413827712149391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_645
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 156
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3be014fa55a6ef0800000000000000
+      internalID: -114184629345405994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_648
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 151
+        width: 74
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c426aa2da407ed0800000000000000
+      internalID: -2418350731235799976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_650
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 157
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d97fa4887ec1bdc0800000000000000
+      internalID: -3624889208039048749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_652
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 156
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d7b7f9b941aa620800000000000000
+      internalID: 2786061978110229834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_655
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 107
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a3b8ecc5d631d0800000000000000
+      internalID: -3371272194986106746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_656
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 107
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9940a7c20ab110800000000000000
+      internalID: 1277336500723882629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_657
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 107
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d8bfebf40cd580800000000000000
+      internalID: -8801154091683621710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_663
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 105
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf52e91cdf5f2bcb0800000000000000
+      internalID: -4849543378500704772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1756
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbff66b6a258c860800000000000000
+      internalID: 7550375651265477552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1756
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45b34a03628d46d0800000000000000
+      internalID: -3004602014500670131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1756
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1b9a4bbf56e48f0800000000000000
+      internalID: -554393572377775648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1755
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df43d8385f16e620800000000000000
+      internalID: 2802962281855668177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1756
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55319d7845cd65c10800000000000000
+      internalID: 2042061736673612629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1628
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f12a4daf18a9240800000000000000
+      internalID: 4799291267225886534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1626
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb8fe5b62123f2c0800000000000000
+      internalID: -4399135960865993746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1095
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4a62469af13cb30800000000000000
+      internalID: 4306320481086514430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1099
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255d85c6c4654b480800000000000000
+      internalID: -8884381278659881646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SasukeSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 552
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac936283a6fc7e70800000000000000
+      internalID: 9114430928018709668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -86,7 +6800,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
