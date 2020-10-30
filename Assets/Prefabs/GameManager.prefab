@@ -45,4 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player1: {fileID: 8604745872730419056, guid: 323df28aa522338429537892b4068153,
     type: 3}
-  _ia: {fileID: 9129117753544812394, guid: 2fc29ed51c2dc70418174fb1c5064af7, type: 3}
+  _ia: {fileID: 6214264856008750238, guid: 2fc29ed51c2dc70418174fb1c5064af7, type: 3}
