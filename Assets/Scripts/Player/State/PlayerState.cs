@@ -2,21 +2,25 @@
 
 public abstract class PlayerState
 {
-    public virtual IEnumerator Start()
-    {
-        yield break;
-    }
-    public virtual IEnumerator Attack()
-    {
-        yield break;
-    }
-    public virtual IEnumerator Block()
-    {
-        yield break;
-    }
-    public virtual IEnumerator OnAir()
-    {
-        yield break;
-    }
+    public virtual void Idle()
+    { }
+    public virtual void Punch()
+    { }
+    public virtual void Kick()
+    { }
+    public virtual void Block()
+    { }
+    public virtual void Dash()
+    { }
+    public virtual void Jump()
+    { }
+    public virtual void Walk()
+    { }
+    public virtual void GetHit()
+    { }
+    public virtual void Win()
+    { }
+    public virtual void Lose()
+    { }
 
 }
