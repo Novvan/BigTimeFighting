@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdleState : PlayerState
+public class Player : MonoBehaviour
 {
-    public override void Idle()
-    { }
+
 }
