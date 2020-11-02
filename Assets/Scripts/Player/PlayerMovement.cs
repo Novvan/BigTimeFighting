@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+        Debug.Log(Input.GetAxisRaw("Horizontal"));
         _rb.velocity = new Vector2(0, _rb.velocity.y);
 
         if (Input.GetAxisRaw("Horizontal") != 0)

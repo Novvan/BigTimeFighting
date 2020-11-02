@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class IaLogicManager : MonoBehaviour
+public class AILogicManager : MonoBehaviour
 {
     //TODO: DRAW GIZMOS FOR RANGE
 
@@ -17,6 +17,7 @@ public class IaLogicManager : MonoBehaviour
     [SerializeField] private float _speed;
     private float _resetDecision = 2.5f;
     private float _decisionTimer = 0;
+    private float _direction;
 
     //Attacks && actions 
     private Dictionary<string, float> _attacks = new Dictionary<string, float>();
@@ -32,6 +33,7 @@ public class IaLogicManager : MonoBehaviour
 
     //Public References
     public GameObject Player { set => _player = value; }
+    public float Direction { get => _direction; set => _direction = value; }
 
     void Start()
     {
