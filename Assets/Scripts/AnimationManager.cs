@@ -10,8 +10,8 @@ public class AnimationManager : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
     }
-    void Update()
+    public void SetAnimation(string animation)
     {
-
+        _animator.Play(animation);
     }
 }
