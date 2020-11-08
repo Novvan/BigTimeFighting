@@ -20,21 +20,6 @@ TextureImporter:
   - first:
       213: 5305770380642664989
     second: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_5
-  - first:
-      213: -1232035022569180287
-    second: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_6
-  - first:
-      213: 741993050667731834
-    second: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_7
-  - first:
-      213: 7689708102471934953
-    second: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_8
-  - first:
-      213: 7599365234157224843
-    second: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_9
-  - first:
-      213: -1525168545180886895
-    second: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,10 +108,10 @@ TextureImporter:
       name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 0
-        width: 16
-        height: 13
+        x: 79
+        y: 304
+        width: 353
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +129,10 @@ TextureImporter:
       name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 0
-        width: 20
-        height: 18
+        x: 0
+        y: 241
+        width: 512
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +150,10 @@ TextureImporter:
       name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_2
       rect:
         serializedVersion: 2
-        x: 251
-        y: 0
-        width: 14
-        height: 16
+        x: 134
+        y: 121
+        width: 57
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +171,10 @@ TextureImporter:
       name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_3
       rect:
         serializedVersion: 2
-        x: 322
-        y: 0
-        width: 16
-        height: 16
+        x: 215
+        y: 128
+        width: 56
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +192,10 @@ TextureImporter:
       name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_4
       rect:
         serializedVersion: 2
-        x: 395
-        y: 0
-        width: 18
-        height: 12
+        x: 306
+        y: 126
+        width: 88
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +213,10 @@ TextureImporter:
       name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_5
       rect:
         serializedVersion: 2
-        x: 39
-        y: 36
-        width: 433
-        height: 76
+        x: 40
+        y: 0
+        width: 432
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,111 +226,6 @@ TextureImporter:
       bones: []
       spriteID: d12cefdcc02e1a940800000000000000
       internalID: 5305770380642664989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_6
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 121
-        width: 51
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1837ce0bcaee6eee0800000000000000
-      internalID: -1232035022569180287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_7
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 128
-        width: 55
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7bcbd29fb61c4a00800000000000000
-      internalID: 741993050667731834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_8
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 128
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e3684207c457ba60800000000000000
-      internalID: 7689708102471934953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 240
-        width: 512
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b830564da6e567960800000000000000
-      internalID: 7599365234157224843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_10
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 304
-        width: 352
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 198d4e1f94385dae0800000000000000
-      internalID: -1525168545180886895
       vertices: []
       indices: 
       edges: []
