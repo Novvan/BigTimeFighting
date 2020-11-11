@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private StateMachine _stateMachine;
-    private InputManager _inputManager = new InputManager();
+    private InputManager _inputManager;
     [SerializeField] private int _jumpCount;
     private int _currentJumps = 0;
     private Rigidbody2D _rb;
@@ -17,6 +17,10 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         _stateMachine = new StateMachine();
+        _inputManager = new InputManager();
+
+
+
         var setup = new Setup(this.gameObject);
         var move = new Move(this.gameObject);
         // var jump = new Jump(this.gameObject);
