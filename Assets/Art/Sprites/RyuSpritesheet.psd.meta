@@ -268,11 +268,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6
-        y: 865
-        width: 44
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 868
+        width: 43
+        height: 84
+      alignment: 9
+      pivot: {x: 0.41401374, y: 0.496614}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,11 +289,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 864
-        width: 47
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 868
+        width: 46
+        height: 84
+      alignment: 9
+      pivot: {x: 0.41962168, y: 0.46952674}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,11 +310,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 105
-        y: 865
-        width: 43
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 868
+        width: 44
+        height: 84
+      alignment: 9
+      pivot: {x: 0.40950376, y: 0.489842}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,11 +331,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 154
-        y: 866
+        y: 868
         width: 44
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 84
+      alignment: 9
+      pivot: {x: 0.4030401, y: 0.503386}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,11 +352,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 206
-        y: 865
-        width: 43
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 869
+        width: 42
+        height: 83
+      alignment: 9
+      pivot: {x: 0.47291312, y: 0.48286676}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: RyuSpritesheet_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 866
-        width: 40
-        height: 88
+        x: 252
+        y: 869
+        width: 41
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,11 +394,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 301
-        y: 866
+        y: 869
         width: 44
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 82
+      alignment: 9
+      pivot: {x: 0.48707235, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: RyuSpritesheet_7
       rect:
         serializedVersion: 2
-        x: 354
-        y: 867
-        width: 41
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 869
+        width: 43
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5106485, y: 0.48784873}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: RyuSpritesheet_8
       rect:
         serializedVersion: 2
-        x: 400
-        y: 866
-        width: 45
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 401
+        y: 869
+        width: 44
+        height: 87
+      alignment: 9
+      pivot: {x: 0.47414467, y: 0.47711602}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,11 +457,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 451
-        y: 866
-        width: 45
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 868
+        width: 44
+        height: 77
+      alignment: 9
+      pivot: {x: 0.48103976, y: 0.5034268}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,11 +478,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 501
-        y: 866
+        y: 869
         width: 37
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 91
+      alignment: 9
+      pivot: {x: 0.45387888, y: 0.48437297}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,11 +499,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 543
-        y: 871
+        y: 873
         width: 34
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 78
+      alignment: 9
+      pivot: {x: 0.46654016, y: 0.49635354}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,8 +523,8 @@ TextureImporter:
         y: 881
         width: 33
         height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.47414514, y: 0.44792324}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,11 +541,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 617
-        y: 871
-        width: 33
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 873
+        width: 32
+        height: 80
+      alignment: 9
+      pivot: {x: 0.47414514, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,11 +562,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 655
-        y: 867
-        width: 38
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 869
+        width: 36
+        height: 91
+      alignment: 9
+      pivot: {x: 0.46257743, y: 0.48203704}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: RyuSpritesheet_15
       rect:
         serializedVersion: 2
-        x: 697
-        y: 866
-        width: 42
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 696
+        y: 869
+        width: 43
+        height: 76
+      alignment: 9
+      pivot: {x: 0.48677242, y: 0.5037424}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: RyuSpritesheet_16
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 865
-        width: 40
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1113
+        y: 869
+        width: 43
+        height: 76
+      alignment: 9
+      pivot: {x: 0.47584426, y: 0.5068327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: RyuSpritesheet_17
       rect:
         serializedVersion: 2
-        x: 1162
-        y: 865
-        width: 43
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1159
+        y: 869
+        width: 45
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5461616, y: 0.38407353}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,11 +646,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1210
-        y: 862
+        y: 869
         width: 44
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 84
+      alignment: 9
+      pivot: {x: 0.4704895, y: 0.48145112}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,11 +667,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1259
-        y: 862
-        width: 46
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 869
+        width: 44
+        height: 61
+      alignment: 9
+      pivot: {x: 0.51770574, y: 0.368035}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -688,11 +688,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 748
-        width: 46
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 752
+        width: 45
+        height: 84
+      alignment: 9
+      pivot: {x: 0.45649883, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -708,12 +708,12 @@ TextureImporter:
       name: RyuSpritesheet_21
       rect:
         serializedVersion: 2
-        x: 51
-        y: 748
-        width: 59
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 752
+        width: 58
+        height: 84
+      alignment: 9
+      pivot: {x: 0.34624785, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,11 +730,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 116
-        y: 750
+        y: 752
         width: 47
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 84
+      alignment: 9
+      pivot: {x: 0.42132828, y: 0.48187473}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,11 +751,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 617
-        width: 55
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 621
+        width: 54
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4848759, y: 0.5506478}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -771,12 +771,12 @@ TextureImporter:
       name: RyuSpritesheet_24
       rect:
         serializedVersion: 2
-        x: 60
-        y: 618
-        width: 71
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 59
+        y: 621
+        width: 72
+        height: 91
+      alignment: 9
+      pivot: {x: 0.42059952, y: 0.5688054}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -792,12 +792,12 @@ TextureImporter:
       name: RyuSpritesheet_25
       rect:
         serializedVersion: 2
-        x: 135
-        y: 618
+        x: 133
+        y: 621
         width: 51
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4537725, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -813,12 +813,12 @@ TextureImporter:
       name: RyuSpritesheet_26
       rect:
         serializedVersion: 2
-        x: 172
-        y: 749
-        width: 42
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 169
+        y: 751
+        width: 44
+        height: 84
+      alignment: 9
+      pivot: {x: 0.45219725, y: 0.48925918}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -834,12 +834,12 @@ TextureImporter:
       name: RyuSpritesheet_27
       rect:
         serializedVersion: 2
-        x: 219
-        y: 749
-        width: 50
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 217
+        y: 751
+        width: 53
+        height: 87
+      alignment: 9
+      pivot: {x: 0.58117473, y: 0.4807718}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -855,12 +855,12 @@ TextureImporter:
       name: RyuSpritesheet_28
       rect:
         serializedVersion: 2
-        x: 275
-        y: 747
-        width: 74
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 751
+        width: 75
+        height: 87
+      alignment: 9
+      pivot: {x: 0.48406574, y: 0.49175954}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -877,11 +877,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 351
-        y: 748
-        width: 53
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 751
+        width: 52
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5965253, y: 0.45879215}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,11 +898,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 410
-        y: 748
-        width: 47
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 751
+        width: 46
+        height: 84
+      alignment: 9
+      pivot: {x: 0.4338905, y: 0.508058}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,11 +919,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 127
-        width: 48
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 131
+        width: 45
+        height: 78
+      alignment: 9
+      pivot: {x: 0.33165318, y: 0.5290629}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,11 +940,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 53
-        y: 128
-        width: 47
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 131
+        width: 46
+        height: 78
+      alignment: 9
+      pivot: {x: 0.32839286, y: 0.5359106}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -961,11 +961,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 105
-        y: 127
-        width: 51
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 131
+        width: 50
+        height: 67
+      alignment: 9
+      pivot: {x: 0.32174987, y: 0.6178197}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -982,11 +982,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 161
-        y: 127
-        width: 47
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 131
+        width: 45
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5169766, y: 0.46968496}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1005,9 +1005,9 @@ TextureImporter:
         x: 1161
         y: 127
         width: 54
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5334563, y: 0.5049361}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1024,11 +1024,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1216
-        y: 123
-        width: 76
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 136
+        width: 77
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5351927, y: 0.46578667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1044,12 +1044,12 @@ TextureImporter:
       name: RyuSpritesheet_37
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 126
-        width: 80
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1295
+        y: 132
+        width: 75
+        height: 31
+      alignment: 9
+      pivot: {x: 0.51204425, y: 0.5291369}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1065,12 +1065,12 @@ TextureImporter:
       name: RyuSpritesheet_38
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 126
-        width: 75
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1373
+        y: 137
+        width: 74
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5203445, y: 0.44525874}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1086,12 +1086,12 @@ TextureImporter:
       name: RyuSpritesheet_39
       rect:
         serializedVersion: 2
-        x: 1448
-        y: 124
-        width: 78
-        height: 52
+        x: 1449
+        y: 132
+        width: 77
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1107,12 +1107,12 @@ TextureImporter:
       name: RyuSpritesheet_40
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
+        x: 3
+        y: 6
         width: 48
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 75
+      alignment: 9
+      pivot: {x: 0.48891166, y: 0.5091969}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1128,12 +1128,12 @@ TextureImporter:
       name: RyuSpritesheet_41
       rect:
         serializedVersion: 2
-        x: 54
-        y: 0
-        width: 47
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 55
+        y: 6
+        width: 46
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5404907, y: 0.50302327}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1150,11 +1150,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 105
-        y: 0
-        width: 47
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 6
+        width: 46
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5452907, y: 0.43632153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
