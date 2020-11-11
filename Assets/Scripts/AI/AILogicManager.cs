@@ -4,6 +4,7 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Fighter))]
 public class AILogicManager : MonoBehaviour
 {
     //TODO: DRAW GIZMOS FOR RANGE
@@ -14,10 +15,8 @@ public class AILogicManager : MonoBehaviour
     [SerializeField] private State _state;
 
     //Variables
-    [SerializeField] private float _speed;
     private float _resetDecision = 2.5f;
     private float _decisionTimer = 0;
-    private float _direction;
 
     //Attacks && actions 
     private Dictionary<string, float> _attacks = new Dictionary<string, float>();
@@ -30,13 +29,14 @@ public class AILogicManager : MonoBehaviour
     //Private References
     private GameObject _player;
     private Rigidbody2D _rb;
+    private Fighter _fighter;
 
     //Public References
     public GameObject Player { set => _player = value; }
-    public float Direction { get => _direction; set => _direction = value; }
 
     void Start()
     {
+        _fighter = this.gameObject.GetComponent<Fighter>();
         _attacks.Add("Punch", 1.75f);
         _attacks.Add("Kick", 4.5f);
         _attacks.Add("Special", 5f);
@@ -102,6 +102,6 @@ public class AILogicManager : MonoBehaviour
         _state = State.Walk;
         Vector2 direction = _player.gameObject.transform.position - transform.position;
         direction.y = 0;
-        _rb.velocity = new Vector2(direction.normalized.x * _speed, _rb.velocity.y);
+        _rb.velocity = new Vector2(direction.normalized.x * _fighter.Speed, _rb.velocity.y);
     }
 }

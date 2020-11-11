@@ -3,55 +3,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Fighter))]
 public class Player : MonoBehaviour
 {
     private StateMachine _stateMachine;
     private InputManager _inputManager;
-    [SerializeField] private int _jumpCount;
-    private int _currentJumps = 0;
-    private Rigidbody2D _rb;
-    private float _direction;
-
-    public float Direction { get => _direction; }
-
+    private Fighter _fighter;
     private void Awake()
     {
+        _fighter = this.gameObject.GetComponent<Fighter>();
         _stateMachine = new StateMachine();
-        _inputManager = new InputManager();
+        _inputManager = new InputManager(_fighter);
 
-
-
-        var setup = new Setup(this.gameObject);
+        var idle = new Idle(this.gameObject);
         var move = new Move(this.gameObject);
         // var jump = new Jump(this.gameObject);
 
-        //Setup Transitions
-        At(setup, move, _inputManager.move());
-        // At(setup, jump, _inputManager.jump());
+        //idle Transitions
+        At(idle, move, _inputManager.move());
+        // At(idle, jump, _inputManager.jump());
         //Move transitions
-        At(move, setup, _inputManager.still());
+        At(move, idle, _inputManager.still());
         // At(move, jump, _inputManager.jump());
 
+        //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
 
-
-        _stateMachine.SetState(setup);
+        _stateMachine.SetState(idle);
     }
 
     private void Start()
     {
-        _rb = GetComponentInParent<Rigidbody2D>();
-        if (_jumpCount == 0) _jumpCount = 1;
     }
 
     private void Update()
     {
-        _direction = Input.GetAxisRaw("Horizontal");
+        _fighter.Direction = Input.GetAxisRaw("Horizontal");
         _stateMachine.Tick();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Environment")) _currentJumps = 0;
+        if (other.gameObject.CompareTag("Environment")) _fighter.Jumping = false;
     }
 }
