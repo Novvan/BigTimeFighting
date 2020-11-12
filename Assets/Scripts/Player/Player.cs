@@ -17,14 +17,23 @@ public class Player : MonoBehaviour
 
         var idle = new Idle(this.gameObject);
         var move = new Move(this.gameObject);
-        // var jump = new Jump(this.gameObject);
+        var jump = new Jump(this.gameObject);
 
         //idle Transitions
         At(idle, move, _inputManager.move());
-        // At(idle, jump, _inputManager.jump());
+        At(idle, jump, _inputManager.jump());
+        //At(idle, punck, _inputManager.punch())
         //Move transitions
         At(move, idle, _inputManager.still());
-        // At(move, jump, _inputManager.jump());
+        At(move, jump, _inputManager.jump());
+        //Jump Transitions
+        At(jump, idle, _grounded());
+
+        //Custom Conditions
+        Func<bool> _grounded() => () => 
+        {
+            return !_fighter.Jumping;
+        };
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);

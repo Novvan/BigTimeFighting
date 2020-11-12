@@ -56,7 +56,7 @@ public class Move : IState
 
     public void OnExit()
     {
-        _rb.velocity = new Vector2(0, _rb.velocity.y);
+        //_rb.velocity = new Vector2(0, _rb.velocity.y);
         _anim.StopPlayback();
     }
 }
