@@ -31,11 +31,13 @@ public class Idle : IState
         _rb.velocity = new Vector2(0, _rb.velocity.y);
         if (_fighter.Fliped)
         {
-            _entity.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            //_entity.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            _entity.gameObject.transform.localScale = new Vector3(-Mathf.Abs(_entity.gameObject.transform.localScale.x), _entity.gameObject.transform.localScale.y, _entity.gameObject.transform.localScale.z);
         }
         else 
         {
-            _entity.gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            //_entity.gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            _entity.gameObject.transform.localScale = new Vector3(Mathf.Abs(_entity.gameObject.transform.localScale.x), _entity.gameObject.transform.localScale.y, _entity.gameObject.transform.localScale.z);
         }
     }
 

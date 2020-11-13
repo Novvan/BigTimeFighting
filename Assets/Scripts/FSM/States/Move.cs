@@ -27,42 +27,15 @@ public class Move : IState
 
     public void Tick()
     {
-        if (_entity.gameObject.GetComponent<Fighter>().Fliped)
-        {
-            _entity.gameObject.GetComponent<SpriteRenderer>().flipX = true;
-        }
-        else
-        {
-            _entity.gameObject.GetComponent<SpriteRenderer>().flipX = false;
-        }
         if (_direction != 0)
         {
             _rb.velocity = new Vector2(_fighter.Speed * _direction, _rb.velocity.y);
             _anim.Play(STATE_ANIMATION);
-            //if (_direction < 0)
-            //{
-            //    _entity.GetComponent<SpriteRenderer>().flipX = true;
-            //}
-            //else
-            //{
-            //   _entity.GetComponent<SpriteRenderer>().flipX = false;
-            //}
-
         }
-
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     if (_currentJumps < _jumpCount)
-        //     {
-        //         _rb.AddForce(new Vector2(0, _jumpForce), ForceMode2D.Impulse);
-        //         _currentJumps++;
-        //     }
-        // }
     }
 
     public void OnExit()
     {
-        //_rb.velocity = new Vector2(0, _rb.velocity.y);
         _anim.StopPlayback();
     }
 }
