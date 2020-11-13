@@ -368,3 +368,5 @@ MonoBehaviour:
   _jumpForce: 12
   _speed: 5
   _fliped: 0
+  _kickCollider: {fileID: 590253853676065483}
+  _punchCollider: {fileID: 590253853676065483}

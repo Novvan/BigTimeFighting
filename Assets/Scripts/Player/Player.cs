@@ -9,25 +9,32 @@ public class Player : MonoBehaviour
     private StateMachine _stateMachine;
     private InputManager _inputManager;
     private Fighter _fighter;
+    private IState _idle;
+    private IState _move;
+    private IState _jump;
+    private IState _kick;
     private void Awake()
     {
         _fighter = this.gameObject.GetComponent<Fighter>();
         _stateMachine = new StateMachine();
         _inputManager = new InputManager(_fighter);
-
-        var idle = new Idle(this.gameObject);
-        var move = new Move(this.gameObject);
-        var jump = new Jump(this.gameObject);
+        _idle = new Idle(gameObject);
+        _move = new Move(gameObject);
+        _jump = new Jump(gameObject);
+        _kick = new Kick(gameObject);
 
         //idle Transitions
-        At(idle, move, _inputManager.move());
-        At(idle, jump, _inputManager.jump());
-        //At(idle, punck, _inputManager.punch())
+        At(_idle, _move, _inputManager.move());
+        At(_idle, _jump, _inputManager.jump());
+        At(_idle, _kick, _inputManager.kick());
+
         //Move transitions
-        At(move, idle, _inputManager.still());
-        At(move, jump, _inputManager.jump());
+        At(_move, _idle, _inputManager.still());
+        At(_move, _jump, _inputManager.jump());
+        At(_move, _kick, _inputManager.kick());
+
         //Jump Transitions
-        At(jump, idle, _grounded());
+        At(_jump, _idle, _grounded());
 
         //Custom Conditions
         Func<bool> _grounded() => () => 
@@ -38,7 +45,7 @@ public class Player : MonoBehaviour
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
 
-        _stateMachine.SetState(idle);
+        _stateMachine.SetState(_idle);
     }
 
     private void Start()
@@ -54,5 +61,9 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Environment")) _fighter.Jumping = false;
+    }
+    public void ResetState() 
+    {
+        _stateMachine.SetState(_idle);
     }
 }

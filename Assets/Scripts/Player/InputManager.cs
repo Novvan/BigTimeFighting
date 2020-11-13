@@ -22,4 +22,8 @@ public class InputManager : MonoBehaviour
         if (!_fighter.Jumping) return Input.GetKeyDown(KeyCode.Space);
         else return false;
     };
+    public Func<bool> kick() => () =>
+    {
+        return Input.GetKeyDown(KeyCode.J);
+    };
 }
