@@ -16,17 +16,15 @@ public class AILogicManager : MonoBehaviour
 
     //Attacks && actions 
     private Dictionary<string, float> _attacks = new Dictionary<string, float>();
-    private ActionNode _walk;
-    private ActionNode _jump;
-    private ActionNode _punch;
-    private ActionNode _kick;
-    private QuestionNode _compareHight;
 
     //Private References
     private GameObject _player;
     private Rigidbody2D _rb;
     private Fighter _fighter;
     private StateMachine _stateMachine;
+    private IState _idle;
+    private IState _move;
+    private IState _jump;
 
     //Public References
     public GameObject Player { set => _player = value; }
@@ -37,19 +35,19 @@ public class AILogicManager : MonoBehaviour
         _rb = gameObject.GetComponent<Rigidbody2D>();
         _stateMachine = new StateMachine();
 
-        var idle = new Idle(gameObject);
-        var move = new Move(gameObject);
-        var jump = new Jump(gameObject);
+        _idle = new Idle(gameObject);
+        _move = new Move(gameObject);
+        _jump = new Jump(gameObject);
         
         //idle Transitions
-        At(idle, move, _true());
-        At(idle, jump, _true());
+        At(_idle, _move, _true());
+        At(_idle, _jump, _true());
         //At(idle, punck, _inputManager.punch())
         //Move transitions
-        At(move, idle, _true());
-        At(move, jump, _true());
+        At(_move, _idle, _true());
+        At(_move, _jump, _true());
         //Jump Transitions
-        At(jump, idle, _grounded());
+        At(_jump, _idle, _grounded());
         
         //Custom Conditions
         Func<bool> _grounded() => () =>
@@ -64,7 +62,7 @@ public class AILogicManager : MonoBehaviour
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
 
-        _stateMachine.SetState(idle);
+        _stateMachine.SetState(_idle);
     }
     bool IsInRange(float d)
     {
@@ -102,20 +100,9 @@ public class AILogicManager : MonoBehaviour
             }
         }*/
     }
-    void Punch()
+    
+    public void ResetState()
     {
-
-    }
-    void Kick()
-    {
-
-    }
-    void Jump()
-    {
-
-    }
-    void Walk()
-    {
-        
+        _stateMachine.SetState(_idle);
     }
 }
