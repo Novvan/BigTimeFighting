@@ -27,20 +27,26 @@ public class Move : IState
 
     public void Tick()
     {
-
+        if (_entity.gameObject.GetComponent<Fighter>().Fliped)
+        {
+            _entity.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else
+        {
+            _entity.gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
         if (_direction != 0)
         {
             _rb.velocity = new Vector2(_fighter.Speed * _direction, _rb.velocity.y);
             _anim.Play(STATE_ANIMATION);
-            if (_direction < 0)
-            {
-                _entity.GetComponent<SpriteRenderer>().flipX = true;
-            }
-            else
-            {
-                _entity.GetComponent<SpriteRenderer>().flipX = false;
-
-            }
+            //if (_direction < 0)
+            //{
+            //    _entity.GetComponent<SpriteRenderer>().flipX = true;
+            //}
+            //else
+            //{
+            //   _entity.GetComponent<SpriteRenderer>().flipX = false;
+            //}
 
         }
 

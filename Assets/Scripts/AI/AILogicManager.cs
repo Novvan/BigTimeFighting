@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,11 +9,6 @@ using UnityEngine;
 public class AILogicManager : MonoBehaviour
 {
     //TODO: DRAW GIZMOS FOR RANGE
-
-
-    //State
-    private enum State { Idle, Punch, Kick, Block, Dash, Jump, Walk, GetHit, Win, Lose };
-    [SerializeField] private State _state;
 
     //Variables
     private float _resetDecision = 2.5f;
@@ -30,6 +26,7 @@ public class AILogicManager : MonoBehaviour
     private GameObject _player;
     private Rigidbody2D _rb;
     private Fighter _fighter;
+    private StateMachine _stateMachine;
 
     //Public References
     public GameObject Player { set => _player = value; }
@@ -37,16 +34,37 @@ public class AILogicManager : MonoBehaviour
     void Start()
     {
         _fighter = this.gameObject.GetComponent<Fighter>();
-        _attacks.Add("Punch", 1.75f);
-        _attacks.Add("Kick", 4.5f);
-        _attacks.Add("Special", 5f);
-        _rb = GetComponent<Rigidbody2D>();
-        _state = State.Idle;
-        _walk = new ActionNode(Walk);
-        _jump = new ActionNode(Jump);
-        _kick = new ActionNode(Kick);
-        _punch = new ActionNode(Punch);
-        _compareHight = new QuestionNode(CompareHeight, _jump, _punch);
+        _rb = gameObject.GetComponent<Rigidbody2D>();
+        _stateMachine = new StateMachine();
+
+        var idle = new Idle(gameObject);
+        var move = new Move(gameObject);
+        var jump = new Jump(gameObject);
+        
+        //idle Transitions
+        At(idle, move, _true());
+        At(idle, jump, _true());
+        //At(idle, punck, _inputManager.punch())
+        //Move transitions
+        At(move, idle, _true());
+        At(move, jump, _true());
+        //Jump Transitions
+        At(jump, idle, _grounded());
+        
+        //Custom Conditions
+        Func<bool> _grounded() => () =>
+        {
+            return !_fighter.Jumping;
+        };
+        Func<bool> _true() => () =>
+        {
+            return true;
+        };
+
+        //AddTransition alias
+        void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
+
+        _stateMachine.SetState(idle);
     }
     bool IsInRange(float d)
     {
@@ -62,13 +80,12 @@ public class AILogicManager : MonoBehaviour
     }
     void Update()
     {
-        _rb.velocity = new Vector2(0, _rb.velocity.y);
+        _stateMachine.Tick();
         //Roulette punch && kick && sa
-        string _decision = "Punch";
+        /*string _decision = "Punch";
         if (IsInRange(_attacks[_decision]))
         {
             //State according to the decision
-            _state = State.Punch;
             Debug.Log("Punching");
         }
         else
@@ -83,7 +100,7 @@ public class AILogicManager : MonoBehaviour
                 _walk.Execute();
                 _decisionTimer += Time.deltaTime;
             }
-        }
+        }*/
     }
     void Punch()
     {
@@ -99,9 +116,6 @@ public class AILogicManager : MonoBehaviour
     }
     void Walk()
     {
-        _state = State.Walk;
-        Vector2 direction = _player.gameObject.transform.position - transform.position;
-        direction.y = 0;
-        _rb.velocity = new Vector2(direction.normalized.x * _fighter.Speed, _rb.velocity.y);
+        
     }
 }
