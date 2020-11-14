@@ -25,6 +25,7 @@ public class AILogicManager : MonoBehaviour
     private IState _idle;
     private IState _move;
     private IState _jump;
+    private IState _hit;
 
     //Public References
     public GameObject Player { set => _player = value; }
@@ -38,14 +39,17 @@ public class AILogicManager : MonoBehaviour
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
         _jump = new Jump(gameObject);
+        _hit = new Hit(gameObject);
         
         //idle Transitions
-        At(_idle, _move, _true());
-        At(_idle, _jump, _true());
-        //At(idle, punck, _inputManager.punch())
+        At(_idle, _move, _false());
+        At(_idle, _jump, _false());
+        At(_idle, _hit, _hited());
+
         //Move transitions
-        At(_move, _idle, _true());
-        At(_move, _jump, _true());
+        At(_move, _idle, _false());
+        At(_move, _jump, _false());
+
         //Jump Transitions
         At(_jump, _idle, _grounded());
         
@@ -54,9 +58,13 @@ public class AILogicManager : MonoBehaviour
         {
             return !_fighter.Jumping;
         };
-        Func<bool> _true() => () =>
+        Func<bool> _false() => () =>
         {
-            return true;
+            return false;
+        };
+        Func<bool> _hited() => () =>
+        {
+            return _fighter.Hit;
         };
 
         //AddTransition alias
@@ -78,6 +86,7 @@ public class AILogicManager : MonoBehaviour
     }
     void Update()
     {
+        Debug.Log(_stateMachine.CurrentState);
         _stateMachine.Tick();
         //Roulette punch && kick && sa
         /*string _decision = "Punch";

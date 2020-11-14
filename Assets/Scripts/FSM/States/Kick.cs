@@ -20,22 +20,19 @@ public class Kick : IState
     public void OnEnter()
     {
         _anim.Play("kick");
-        _timer = 0;
         _rb.velocity = Vector2.zero;
     }
     public void Tick()
     {
         if (_timer < _anim.GetCurrentAnimatorStateInfo(0).length)
         {
-            if (_timer > 0.16 && _timer < 0.32)
+            if (_timer > 0.16f && _timer < 0.4f)
             {
                 _fighter.KickColliderActive = true;
-                Debug.Log("kickColliderActive");
             }
-            else if (_timer >= 0.32)
+            else if (_timer >= 0.4f)
             {
                 _fighter.KickColliderActive = false;
-                Debug.Log("kickColliderDeactive");
             }
             _timer += Time.deltaTime;
         }
@@ -54,7 +51,7 @@ public class Kick : IState
 
     public void OnExit()
     {
-        
+        _timer = 0;
     }
 
 }
