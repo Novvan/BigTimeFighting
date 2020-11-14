@@ -26,13 +26,15 @@ public class AILogicManager : MonoBehaviour
     private IState _move;
     private IState _jump;
     private IState _hit;
+    private IState _kick;
+    private IState _punch;
 
     //Public References
     public GameObject Player { set => _player = value; }
 
     void Start()
     {
-        _fighter = this.gameObject.GetComponent<Fighter>();
+        _fighter = gameObject.GetComponent<Fighter>();
         _rb = gameObject.GetComponent<Rigidbody2D>();
         _stateMachine = new StateMachine();
 
@@ -40,19 +42,32 @@ public class AILogicManager : MonoBehaviour
         _move = new Move(gameObject);
         _jump = new Jump(gameObject);
         _hit = new Hit(gameObject);
-        
+        _kick = new Kick(gameObject);
+        _punch = new Punch(gameObject);
+
         //idle Transitions
         At(_idle, _move, _false());
         At(_idle, _jump, _false());
         At(_idle, _hit, _hited());
+        //At(_idle, _kick, );
+        //At(_idle, _punch, );
 
         //Move transitions
         At(_move, _idle, _false());
         At(_move, _jump, _false());
+        At(_move, _hit, _hited());
+        //At(_move, _kick, );
+        //At(_move, _punch, );
 
         //Jump Transitions
         At(_jump, _idle, _grounded());
-        
+
+        //kick Transitions
+        At(_kick, _hit, _hited());
+
+        //punch Transitions
+        At(_punch, _hit, _hited());
+
         //Custom Conditions
         Func<bool> _grounded() => () =>
         {

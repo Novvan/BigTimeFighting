@@ -12,7 +12,10 @@ public class Player : MonoBehaviour
     private IState _idle;
     private IState _move;
     private IState _jump;
+    private IState _hit;
     private IState _kick;
+    private IState _punch;
+
     private void Awake()
     {
         _fighter = this.gameObject.GetComponent<Fighter>();
@@ -21,25 +24,41 @@ public class Player : MonoBehaviour
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
         _jump = new Jump(gameObject);
+        _hit = new Hit(gameObject);
         _kick = new Kick(gameObject);
+        _punch = new Punch(gameObject);
 
         //idle Transitions
         At(_idle, _move, _inputManager.move());
         At(_idle, _jump, _inputManager.jump());
+        At(_idle, _hit, _hited());
         At(_idle, _kick, _inputManager.kick());
+        At(_idle, _punch, _inputManager.punch());
 
         //Move transitions
         At(_move, _idle, _inputManager.still());
         At(_move, _jump, _inputManager.jump());
+        At(_move, _hit, _hited());
         At(_move, _kick, _inputManager.kick());
+        At(_move, _punch, _inputManager.punch());
 
         //Jump Transitions
         At(_jump, _idle, _grounded());
+
+        //kick Transitions
+        At(_kick, _hit, _hited());
+
+        //punch Transitions
+        At(_punch, _hit, _hited());
 
         //Custom Conditions
         Func<bool> _grounded() => () => 
         {
             return !_fighter.Jumping;
+        };
+        Func<bool> _hited() => () =>
+        {
+            return _fighter.Hit;
         };
 
         //AddTransition alias

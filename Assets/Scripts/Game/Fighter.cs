@@ -34,8 +34,8 @@ public class Fighter : MonoBehaviour
     }
     private void Update()
     {
-        _kickCollider.SetActive(KickColliderActive);
-        //CheckColliders();
+        _kickCollider.SetActive(_kickColliderActive);
+        _punchCollider.SetActive(_punchColliderActive);
     }
     private void CheckColliders() 
     {
