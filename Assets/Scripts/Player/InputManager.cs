@@ -25,5 +25,9 @@ public class InputManager : MonoBehaviour
     public Func<bool> kick() => () =>
     {
         return Input.GetKeyDown(KeyCode.J);
+    }; 
+    public Func<bool> punch() => () =>
+    {
+        return Input.GetKeyDown(KeyCode.H);
     };
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Kick : IState
+public class Punch : IState
 {
     private readonly GameObject _entity;
     private readonly Animator _anim;
@@ -10,7 +10,7 @@ public class Kick : IState
     private readonly Fighter _fighter;
     private float _timer;
 
-    public Kick(GameObject entity)
+    public Punch(GameObject entity)
     {
         _entity = entity;
         _rb = _entity.GetComponent<Rigidbody2D>();
@@ -19,30 +19,30 @@ public class Kick : IState
     }
     public void OnEnter()
     {
-        _anim.Play("kick");
+        _anim.Play("punch");
         _rb.velocity = Vector2.zero;
     }
     public void Tick()
     {
         if (_timer < _anim.GetCurrentAnimatorStateInfo(0).length)
         {
-            if (_timer > 0.16f && _timer < 0.24f)
+            if (_timer > 0.05f && _timer < 0.15f)
             {
-                _fighter.KickColliderActive = true;
+                _fighter.PunchColliderActive = true;
             }
-            else if (_timer >= 0.24f)
+            else if (_timer >= 0.15f)
             {
-                _fighter.KickColliderActive = false;
+                _fighter.PunchColliderActive = false;
             }
             _timer += Time.deltaTime;
         }
-        else 
+        else
         {
             if (_entity.CompareTag("Player"))
             {
                 _entity.GetComponent<Player>().ResetState();
             }
-            else if (_entity.CompareTag("Enemy")) 
+            else if (_entity.CompareTag("Enemy"))
             {
                 _entity.GetComponent<AILogicManager>().ResetState();
             }
@@ -53,5 +53,4 @@ public class Kick : IState
     {
         _timer = 0;
     }
-
 }

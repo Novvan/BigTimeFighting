@@ -1404,12 +1404,12 @@ TextureImporter:
       name: KenSpritesheet_10
       rect:
         serializedVersion: 2
-        x: 500
+        x: 503
         y: 893
-        width: 41
-        height: 91
-      alignment: 9
-      pivot: {x: 0.46647385, y: 0.46979028}
+        width: 34
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1425,10 +1425,10 @@ TextureImporter:
       name: KenSpritesheet_11
       rect:
         serializedVersion: 2
-        x: 544
-        y: 896
-        width: 31
-        height: 80
+        x: 545
+        y: 897
+        width: 29
+        height: 79
       alignment: 9
       pivot: {x: 0.4379233, y: 0.4896904}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1446,10 +1446,10 @@ TextureImporter:
       name: KenSpritesheet_12
       rect:
         serializedVersion: 2
-        x: 581
-        y: 905
-        width: 33
-        height: 69
+        x: 582
+        y: 906
+        width: 31
+        height: 68
       alignment: 9
       pivot: {x: 0.47476473, y: 0.41781482}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1661,7 +1661,7 @@ TextureImporter:
         width: 67
         height: 84
       alignment: 9
-      pivot: {x: 0.43667802, y: 0.53467613}
+      pivot: {x: 0.6, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1682,7 +1682,7 @@ TextureImporter:
         width: 49
         height: 84
       alignment: 9
-      pivot: {x: 0.4687915, y: 0.49645302}
+      pivot: {x: 0.5612, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1698,12 +1698,12 @@ TextureImporter:
       name: KenSpritesheet_24
       rect:
         serializedVersion: 2
-        x: 2
-        y: 130
-        width: 46
-        height: 78
+        x: 5
+        y: 133
+        width: 43
+        height: 84
       alignment: 9
-      pivot: {x: 0.3478504, y: 0.53778094}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1719,12 +1719,12 @@ TextureImporter:
       name: KenSpritesheet_25
       rect:
         serializedVersion: 2
-        x: 52
-        y: 130
-        width: 51
-        height: 74
+        x: 53
+        y: 133
+        width: 47
+        height: 84
       alignment: 9
-      pivot: {x: 0.29053977, y: 0.5647125}
+      pivot: {x: 0.54255, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1740,12 +1740,12 @@ TextureImporter:
       name: KenSpritesheet_26
       rect:
         serializedVersion: 2
-        x: 105
-        y: 130
-        width: 51
-        height: 69
+        x: 106
+        y: 133
+        width: 49
+        height: 84
       alignment: 9
-      pivot: {x: 0.3410984, y: 0.59075576}
+      pivot: {x: 0.5612, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1761,9 +1761,9 @@ TextureImporter:
       name: KenSpritesheet_27
       rect:
         serializedVersion: 2
-        x: 161
-        y: 130
-        width: 46
+        x: 163
+        y: 133
+        width: 43
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
