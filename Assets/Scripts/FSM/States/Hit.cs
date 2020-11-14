@@ -22,11 +22,11 @@ public class Hit : IState
         _rb.velocity = Vector2.zero;
         if (_fighter.Fliped)
         {
-            _rb.AddForce(new Vector2(_fighter.Speed, 0), ForceMode2D.Impulse);
+            _rb.AddForce(new Vector2(_fighter.Speed / 4, 0), ForceMode2D.Impulse);
         }
-        else 
+        else
         {
-            _rb.AddForce(new Vector2(-_fighter.Speed, 0), ForceMode2D.Impulse);
+            _rb.AddForce(new Vector2(-_fighter.Speed / 4, 0), ForceMode2D.Impulse);
         }
     }
 

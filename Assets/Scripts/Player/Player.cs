@@ -7,7 +7,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private StateMachine _stateMachine;
-    private InputManager _inputManager;
+    private PlayerConditionManager _conditions;
     private Fighter _fighter;
     private IState _idle;
     private IState _move;
@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     {
         _fighter = this.gameObject.GetComponent<Fighter>();
         _stateMachine = new StateMachine();
-        _inputManager = new InputManager(_fighter);
+        _conditions = new PlayerConditionManager(_fighter);
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
         _jump = new Jump(gameObject);
@@ -29,37 +29,27 @@ public class Player : MonoBehaviour
         _punch = new Punch(gameObject);
 
         //idle Transitions
-        At(_idle, _move, _inputManager.move());
-        At(_idle, _jump, _inputManager.jump());
-        At(_idle, _hit, _hited());
-        At(_idle, _kick, _inputManager.kick());
-        At(_idle, _punch, _inputManager.punch());
+        At(_idle, _move, _conditions.move());
+        At(_idle, _jump, _conditions.jump());
+        At(_idle, _hit, _conditions.hitted());
+        At(_idle, _kick, _conditions.kick());
+        At(_idle, _punch, _conditions.punch());
 
         //Move transitions
-        At(_move, _idle, _inputManager.still());
-        At(_move, _jump, _inputManager.jump());
-        At(_move, _hit, _hited());
-        At(_move, _kick, _inputManager.kick());
-        At(_move, _punch, _inputManager.punch());
+        At(_move, _idle, _conditions.still());
+        At(_move, _jump, _conditions.jump());
+        At(_move, _hit, _conditions.hitted());
+        At(_move, _kick, _conditions.kick());
+        At(_move, _punch, _conditions.punch());
 
         //Jump Transitions
-        At(_jump, _idle, _grounded());
+        At(_jump, _idle, _conditions.grounded());
 
         //kick Transitions
-        At(_kick, _hit, _hited());
+        At(_kick, _hit, _conditions.hitted());
 
         //punch Transitions
-        At(_punch, _hit, _hited());
-
-        //Custom Conditions
-        Func<bool> _grounded() => () => 
-        {
-            return !_fighter.Jumping;
-        };
-        Func<bool> _hited() => () =>
-        {
-            return _fighter.Hit;
-        };
+        At(_punch, _hit, _conditions.hitted());
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
@@ -81,7 +71,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Environment")) _fighter.Jumping = false;
     }
-    public void ResetState() 
+    public void ResetState()
     {
         _stateMachine.SetState(_idle);
     }
