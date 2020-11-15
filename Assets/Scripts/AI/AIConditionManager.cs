@@ -12,15 +12,15 @@ public class AIConditionManager : IConditionManager
 
     public Func<bool> move() => () =>
     {
-        return true;
+        return _fighter.Direction != 0;
     };
     public Func<bool> still() => () =>
     {
-        return true;
+        return _fighter.Direction == 0;
     };
     public Func<bool> jump() => () =>
     {
-        if (!_fighter.Jumping) return true;
+        if (!_fighter.Jumping) return _fighter.JumpRequest;
         else return false;
     };
     public Func<bool> kick() => () =>

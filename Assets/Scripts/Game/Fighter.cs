@@ -27,13 +27,16 @@ public class Fighter : MonoBehaviour
     public bool KickColliderActive { get => _kickColliderActive; set => _kickColliderActive = value; }
     public bool PunchColliderActive { get => _punchColliderActive; set => _punchColliderActive = value; }
     public bool Hit { get => _hit; set => _hit = value; }
+    public GameObject FigterHitbox { get => _figterHitbox; set => _figterHitbox = value; }
 
     // Only AI Variables
     private bool _punchRequest;
     private bool _kickRequest;
+    private bool _jumpRequest;
+
     public bool PunchRequest { get => _punchRequest; set => _punchRequest = value; }
     public bool KickRequest { get => _kickRequest; set => _kickRequest = value; }
-    public GameObject FigterHitbox { get => _figterHitbox; set => _figterHitbox = value; }
+    public bool JumpRequest { get => _jumpRequest; set => _jumpRequest = value; }
 
     private void Awake()
     {
@@ -71,5 +74,9 @@ public class Fighter : MonoBehaviour
             other.gameObject.GetComponentInParent<Fighter>().Hit = true;
         }
         
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Environment")) _jumping = false;
     }
 }
