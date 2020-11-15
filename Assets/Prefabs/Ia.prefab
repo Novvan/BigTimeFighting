@@ -174,8 +174,9 @@ GameObject:
   - component: {fileID: 4468362096564147520}
   - component: {fileID: 6485610060788600867}
   - component: {fileID: 6437480412310348972}
-  - component: {fileID: 398027469055285624}
   - component: {fileID: 7812602338909153605}
+  - component: {fileID: 7874399248194217494}
+  - component: {fileID: 398027469055285624}
   m_Layer: 0
   m_Name: Ia
   m_TagString: Enemy
@@ -305,19 +306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0d852a988f4dc44cb09bdc14b51682e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &398027469055285624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6214264856008750238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f73b2013d9d504149a296cac22b7b694, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _minAttackDistance: 2.9
 --- !u!114 &7812602338909153605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +324,32 @@ MonoBehaviour:
   _fliped: 0
   _kickCollider: {fileID: 4354504705847293210}
   _punchCollider: {fileID: 5556022819446001201}
-  _figterHitbox: {fileID: 6215171620992176886}
+  _fighterHitbox: {fileID: 6215171620992176886}
+--- !u!114 &7874399248194217494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214264856008750238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a633702670e42546af96677c2b45bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &398027469055285624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214264856008750238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f73b2013d9d504149a296cac22b7b694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minAttackDistance: 2.9
 --- !u!1 &6215171620992176886
 GameObject:
   m_ObjectHideFlags: 0

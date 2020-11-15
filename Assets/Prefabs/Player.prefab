@@ -267,9 +267,9 @@ GameObject:
   - component: {fileID: 8604745872730419071}
   - component: {fileID: 8604745872730419066}
   - component: {fileID: 8604745872730419064}
-  - component: {fileID: 8604745872730419069}
   - component: {fileID: 8604745872730419067}
   - component: {fileID: 4960799941424536463}
+  - component: {fileID: 8604745872730419069}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -387,18 +387,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8604745872730419069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8604745872730419056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef6be33f0abfa9b4bb14600e645728c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8604745872730419067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,4 +417,16 @@ MonoBehaviour:
   _fliped: 1
   _kickCollider: {fileID: 590253853676065483}
   _punchCollider: {fileID: 3013868728033098873}
-  _figterHitbox: {fileID: 4572590891173946847}
+  _fighterHitbox: {fileID: 4572590891173946847}
+--- !u!114 &8604745872730419069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8604745872730419056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6be33f0abfa9b4bb14600e645728c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
