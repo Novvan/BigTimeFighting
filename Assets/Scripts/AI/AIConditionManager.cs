@@ -25,11 +25,11 @@ public class AIConditionManager : IConditionManager
     };
     public Func<bool> kick() => () =>
     {
-        return true;
+        return _fighter.KickRequest;
     };
     public Func<bool> punch() => () =>
     {
-        return true;
+        return _fighter.PunchRequest;
     };
     public Func<bool> hitted() => () =>
     {

@@ -20,6 +20,7 @@ public class Punch : IState
     public void OnEnter()
     {
         _anim.Play("punch");
+        _fighter.PunchRequest = false;
         _rb.velocity = Vector2.zero;
     }
     public void Tick()
@@ -51,6 +52,7 @@ public class Punch : IState
 
     public void OnExit()
     {
+        _fighter.PunchColliderActive = false;
         _timer = 0;
     }
 }

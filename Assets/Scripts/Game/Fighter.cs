@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Fighter : MonoBehaviour
 {
-
     [SerializeField] private float _jumpForce;
     [SerializeField] private float _speed;
+    [SerializeField] private float _inmunityTimer;
     [SerializeField] private bool _fliped;
     [SerializeField] private GameObject _kickCollider;
     [SerializeField] private GameObject _punchCollider;
-
+    [SerializeField] private GameObject _figterHitbox;
 
     private float _direction;
+    private float _timer;
     private bool _jumping = false;
     private bool _hit = false;
     private bool _kickColliderActive = false;
@@ -27,8 +28,16 @@ public class Fighter : MonoBehaviour
     public bool PunchColliderActive { get => _punchColliderActive; set => _punchColliderActive = value; }
     public bool Hit { get => _hit; set => _hit = value; }
 
+    // Only AI Variables
+    private bool _punchRequest;
+    private bool _kickRequest;
+    public bool PunchRequest { get => _punchRequest; set => _punchRequest = value; }
+    public bool KickRequest { get => _kickRequest; set => _kickRequest = value; }
+    public GameObject FigterHitbox { get => _figterHitbox; set => _figterHitbox = value; }
+
     private void Awake()
     {
+        _timer = 0;
         _kickCollider.SetActive(false);
         _punchCollider.SetActive(false);
     }
@@ -36,6 +45,18 @@ public class Fighter : MonoBehaviour
     {
         _kickCollider.SetActive(_kickColliderActive);
         _punchCollider.SetActive(_punchColliderActive);
+        if (!_figterHitbox.active) 
+        {
+            if (_timer >= _inmunityTimer)
+            {
+                _timer = 0;
+                _figterHitbox.SetActive(true);
+            }
+            else 
+            {
+                _timer += Time.deltaTime;
+            }
+        }
     }
     private void CheckColliders() 
     {

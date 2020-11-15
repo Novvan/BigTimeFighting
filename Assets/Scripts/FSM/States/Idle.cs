@@ -7,6 +7,8 @@ public class Idle : IState
     private readonly Animator _anim;
     private readonly Rigidbody2D _rb;
     private readonly Fighter _fighter;
+    private readonly AILogicManager _aiLogic;
+    private readonly bool _isPlayer = true;
 
     public Idle(GameObject entity)
     {
@@ -14,6 +16,11 @@ public class Idle : IState
         _rb = _entity.GetComponent<Rigidbody2D>();
         _anim = _entity.GetComponent<Animator>();
         _fighter = _entity.GetComponent<Fighter>();
+        if (_entity.CompareTag("Enemy")) 
+        { 
+            _aiLogic = _entity.GetComponent<AILogicManager>();
+            _isPlayer = false;
+        }
     }
 
     public void OnEnter()
@@ -35,6 +42,7 @@ public class Idle : IState
         {
             _entity.gameObject.transform.localScale = new Vector3(Mathf.Abs(_entity.gameObject.transform.localScale.x), _entity.gameObject.transform.localScale.y, _entity.gameObject.transform.localScale.z);
         }
+        if (!_isPlayer) _aiLogic.IdleQuestion.Execute();
     }
 
 }

@@ -20,6 +20,7 @@ public class Kick : IState
     public void OnEnter()
     {
         _anim.Play("kick");
+        _fighter.KickRequest = false;
         _rb.velocity = Vector2.zero;
     }
     public void Tick()
@@ -52,6 +53,7 @@ public class Kick : IState
     public void OnExit()
     {
         _timer = 0;
+        _fighter.KickColliderActive = false;
     }
 
 }

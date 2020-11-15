@@ -44,6 +44,7 @@ public class Player : MonoBehaviour
 
         //Jump Transitions
         At(_jump, _idle, _conditions.grounded());
+        At(_jump, _hit, _conditions.hitted());
 
         //kick Transitions
         At(_kick, _hit, _conditions.hitted());
