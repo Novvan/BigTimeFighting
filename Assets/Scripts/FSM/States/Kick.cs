@@ -4,22 +4,26 @@ using UnityEngine;
 
 public class Kick : IState
 {
+    private readonly AudioManager _audioManager;
+
     private readonly GameObject _entity;
     private readonly Animator _anim;
     private readonly Rigidbody2D _rb;
     private readonly Fighter _fighter;
     private float _timer;
 
-    public Kick(GameObject entity)
+    public Kick(GameObject entity, AudioManager audio)
     {
         _entity = entity;
         _rb = _entity.GetComponent<Rigidbody2D>();
         _anim = _entity.GetComponent<Animator>();
         _fighter = _entity.GetComponent<Fighter>();
+        _audioManager = audio;
     }
     public void OnEnter()
     {
         _anim.Play("kick");
+        _audioManager.Play("kick");
         _fighter.KickRequest = false;
         _rb.velocity = Vector2.zero;
     }
@@ -37,13 +41,13 @@ public class Kick : IState
             }
             _timer += Time.deltaTime;
         }
-        else 
+        else
         {
             if (_entity.CompareTag("Player"))
             {
                 _entity.GetComponent<Player>().ResetState();
             }
-            else if (_entity.CompareTag("Enemy")) 
+            else if (_entity.CompareTag("Enemy"))
             {
                 _entity.GetComponent<AILogicManager>().ResetState();
             }

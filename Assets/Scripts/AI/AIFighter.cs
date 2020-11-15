@@ -24,6 +24,7 @@ public class AIFighter : MonoBehaviour
 
     void Start()
     {
+        var _audioManager = FindObjectOfType<AudioManager>();
         _fighter = gameObject.GetComponent<Fighter>();
         _rb = gameObject.GetComponent<Rigidbody2D>();
         _stateMachine = new StateMachine();
@@ -33,9 +34,9 @@ public class AIFighter : MonoBehaviour
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
         _jump = new Jump(gameObject);
-        _hit = new Hit(gameObject);
-        _kick = new Kick(gameObject);
-        _punch = new Punch(gameObject);
+        _hit = new Hit(gameObject, _audioManager);
+        _kick = new Kick(gameObject, _audioManager);
+        _punch = new Punch(gameObject, _audioManager);
 
 
         //idle Transitions
@@ -72,5 +73,6 @@ public class AIFighter : MonoBehaviour
     void Update()
     {
         _stateMachine.Tick();
+        if (_stateMachine.CurrentState == _hit) FindObjectOfType<AudioManager>().Play("hit");
     }
 }
