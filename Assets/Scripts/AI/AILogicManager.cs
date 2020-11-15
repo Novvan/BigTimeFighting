@@ -49,6 +49,7 @@ public class AILogicManager : MonoBehaviour
         _stateMachine = new StateMachine();
         _conditions = new AIConditionManager(_fighter);
         _attacks = new Dictionary<string, float>();
+        _idleMovements = new Dictionary<string, float>();
 
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
@@ -59,15 +60,15 @@ public class AILogicManager : MonoBehaviour
 
 
         //idle Transitions
-        At(_idle, _move, _conditions.falseReturn());
-        At(_idle, _jump, _conditions.falseReturn());
+        At(_idle, _move, _conditions.move());
+        At(_idle, _jump, _conditions.jump());
         At(_idle, _hit, _conditions.hitted());
         At(_idle, _kick, _conditions.kick());
         At(_idle, _punch, _conditions.punch());
 
         //Move transitions
-        At(_move, _idle, _conditions.falseReturn());
-        At(_move, _jump, _conditions.falseReturn());
+        At(_move, _idle, _conditions.still());
+        At(_move, _jump, _conditions.jump());
         At(_move, _hit, _conditions.hitted());
         At(_move, _kick, _conditions.kick());
         At(_move, _punch, _conditions.punch());
@@ -94,10 +95,10 @@ public class AILogicManager : MonoBehaviour
         _attacks.Add("punch", 20);
         _attacks.Add("kick", 10);
 
-        _idleMovements.Add("idle", 10);
-        _idleMovements.Add("forward", 50);
-        _idleMovements.Add("backward", 50);
-        _idleMovements.Add("jump", 20);
+        _idleMovements.Add("idle", 0);
+        _idleMovements.Add("forward", 0);
+        _idleMovements.Add("backward", 0);
+        _idleMovements.Add("jump", 10);
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
@@ -143,16 +144,23 @@ public class AILogicManager : MonoBehaviour
     }
     void Move() 
     {
+        Debug.Log(_stateMachine.CurrentState);
         string decision = Roulette(_idleMovements);
         switch (decision) 
         {
             case "idle":
+                _fighter.Direction = 0;
                 break;
             case "forward":
+                if(_fighter.Fliped) _fighter.Direction = -1;
+                else _fighter.Direction = 1;
                 break;
             case "backward":
+                if (_fighter.Fliped) _fighter.Direction = 1;
+                else _fighter.Direction = -1;
                 break;
             case "jump":
+                _fighter.JumpRequest = true;
                 break;
         }
     }

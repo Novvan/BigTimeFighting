@@ -20,6 +20,7 @@ public class Jump : IState
     public void OnEnter()
     {
         _rb.AddForce(new Vector2(0, _fighter.JumpForce), ForceMode2D.Impulse);
+        _fighter.JumpRequest = false;
         _fighter.Jumping = true;
         _anim.Play("jump");
     }

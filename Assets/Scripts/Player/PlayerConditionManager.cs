@@ -11,11 +11,11 @@ public class PlayerConditionManager : IConditionManager
 
     public Func<bool> move() => () =>
     {
-        return Input.GetAxisRaw("Horizontal") != 0;
+        return _fighter.Direction != 0;
     };
     public Func<bool> still() => () =>
     {
-        return Input.GetAxisRaw("Horizontal") == 0;
+        return _fighter.Direction == 0;
     };
     public Func<bool> jump() => () =>
     {
