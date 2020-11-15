@@ -68,10 +68,6 @@ public class Player : MonoBehaviour
         _stateMachine.Tick();
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Environment")) _fighter.Jumping = false;
-    }
     public void ResetState()
     {
         _stateMachine.SetState(_idle);
