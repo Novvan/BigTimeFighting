@@ -18,15 +18,19 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        var _audioManager = FindObjectOfType<AudioManager>();
+
+
+
         _fighter = this.gameObject.GetComponent<Fighter>();
         _stateMachine = new StateMachine();
         _conditions = new PlayerConditionManager(_fighter);
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
         _jump = new Jump(gameObject);
-        _hit = new Hit(gameObject);
-        _kick = new Kick(gameObject);
-        _punch = new Punch(gameObject);
+        _hit = new Hit(gameObject, _audioManager);
+        _kick = new Kick(gameObject, _audioManager);
+        _punch = new Punch(gameObject, _audioManager);
 
         //idle Transitions
         At(_idle, _move, _conditions.move());
@@ -56,10 +60,6 @@ public class Player : MonoBehaviour
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
 
         _stateMachine.SetState(_idle);
-    }
-
-    private void Start()
-    {
     }
 
     private void Update()
