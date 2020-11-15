@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Fighter))]
 public class AILogicManager : MonoBehaviour
 {
     //Attacks && actions 
@@ -14,21 +10,15 @@ public class AILogicManager : MonoBehaviour
 
     //Private References
     private GameObject _player;
-    private Rigidbody2D _rb;
-    private Fighter _fighter;
+    private AIFighter _aiFighter;
     private float _resetDecision = 0.25f;
     private float _decisionTimer = 0;
-    [SerializeField] private float _minAttackDistance; 
+    [SerializeField] private float _minAttackDistance;
 
     //STATES
     private StateMachine _stateMachine;
-    private AIConditionManager _conditions;
     private IState _idle;
     private IState _move;
-    private IState _jump;
-    private IState _hit;
-    private IState _kick;
-    private IState _punch;
 
     //Question Nodes
     private QuestionNode _idleQuestion;
@@ -39,7 +29,6 @@ public class AILogicManager : MonoBehaviour
     private ActionNode _punchActionNode;
     private ActionNode _kickActionNode;
     private ActionNode _moveActionNode;
-    private ActionNode _jumpActionNode;
 
     //Public References
     public GameObject Player { set => _player = value; }
@@ -48,46 +37,11 @@ public class AILogicManager : MonoBehaviour
 
     void Start()
     {
-        _fighter = gameObject.GetComponent<Fighter>();
-        _rb = gameObject.GetComponent<Rigidbody2D>();
-        _stateMachine = new StateMachine();
-        _conditions = new AIConditionManager(_fighter);
-        _attacks = new Dictionary<string, float>();
-        _idleActions = new Dictionary<string, float>();
-        _moveActions = new Dictionary<string, float>();
+        _aiFighter = this.gameObject.GetComponent<AIFighter>();
+        _stateMachine = _aiFighter.StateMachine;
+        _idle = _aiFighter.IdleState;
+        _move = _aiFighter.MoveState;
 
-        _idle = new Idle(gameObject);
-        _move = new Move(gameObject);
-        _jump = new Jump(gameObject);
-        _hit = new Hit(gameObject);
-        _kick = new Kick(gameObject);
-        _punch = new Punch(gameObject);
-
-
-        //idle Transitions
-        At(_idle, _move, _conditions.move());
-        At(_idle, _jump, _conditions.jump());
-        At(_idle, _hit, _conditions.hitted());
-        At(_idle, _kick, _conditions.kick());
-        At(_idle, _punch, _conditions.punch());
-
-        //Move transitions
-        At(_move, _idle, _conditions.still());
-        At(_move, _jump, _conditions.jump());
-        At(_move, _hit, _conditions.hitted());
-        At(_move, _kick, _conditions.kick());
-        At(_move, _punch, _conditions.punch());
-
-        //Jump Transitions
-        At(_jump, _idle, _conditions.grounded());
-        At(_jump, _hit, _conditions.hitted());
-
-        //kick Transitions
-        At(_kick, _hit, _conditions.hitted());
-
-        //punch Transitions
-        At(_punch, _hit, _conditions.hitted());
-        
         //Nodes
         _attackActionNode = new ActionNode(Attack);
         _punchActionNode = new ActionNode(Punch);
@@ -96,6 +50,11 @@ public class AILogicManager : MonoBehaviour
 
         _idleQuestion = new QuestionNode(IsInRange, _attackActionNode, _moveActionNode);
         _moveQuestion = new QuestionNode(IsInRange, _attackActionNode, _moveActionNode);
+
+        //Dictionary 
+        _attacks = new Dictionary<string, float>();
+        _idleActions = new Dictionary<string, float>();
+        _moveActions = new Dictionary<string, float>();
 
         _attacks.Add("punch", 20);
         _attacks.Add("kick", 10);
@@ -108,11 +67,6 @@ public class AILogicManager : MonoBehaviour
         _moveActions.Add("stop", 50);
         _moveActions.Add("continue", 70);
         _moveActions.Add("jump", 0);
-
-        //AddTransition alias
-        void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
-
-        _stateMachine.SetState(_idle);
     }
     bool IsInRange()
     {
@@ -122,17 +76,9 @@ public class AILogicManager : MonoBehaviour
         if (_distance > _minAttackDistance) return false;
         else return true;
     }
-    bool CompareHeight()
+    void Attack()
     {
-        return true;
-    }
-    void Update()
-    {
-       _stateMachine.Tick();
-    }
-    void Attack() 
-    {
-        if (!_fighter.Jumping)
+        if (!_aiFighter.Fighter.Jumping)
         {
             string attack = Roulette(_attacks);
             switch (attack)
@@ -144,21 +90,21 @@ public class AILogicManager : MonoBehaviour
                     _kickActionNode.Execute();
                     break;
                 case "back":
-                    if (_fighter.Fliped) _fighter.Direction = 1;
-                    else _fighter.Direction = -1;
+                    if (_aiFighter.Fighter.Fliped) _aiFighter.Fighter.Direction = 1;
+                    else _aiFighter.Fighter.Direction = -1;
                     break;
             }
         }
     }
-    void Punch() 
+    void Punch()
     {
-        _fighter.PunchRequest = true;
+        _aiFighter.Fighter.PunchRequest = true;
     }
-    void Kick() 
+    void Kick()
     {
-        _fighter.KickRequest = true;
+        _aiFighter.Fighter.KickRequest = true;
     }
-    void Move() 
+    void Move()
     {
         Debug.Log(_stateMachine.CurrentState);
         if (_stateMachine.CurrentState == _idle)
@@ -167,19 +113,19 @@ public class AILogicManager : MonoBehaviour
             switch (decision)
             {
                 case "forward":
-                    if (_fighter.Fliped) _fighter.Direction = -1;
-                    else _fighter.Direction = 1;
+                    if (_aiFighter.Fighter.Fliped) _aiFighter.Fighter.Direction = -1;
+                    else _aiFighter.Fighter.Direction = 1;
                     break;
                 case "backward":
-                    if (_fighter.Fliped) _fighter.Direction = 1;
-                    else _fighter.Direction = -1;
+                    if (_aiFighter.Fighter.Fliped) _aiFighter.Fighter.Direction = 1;
+                    else _aiFighter.Fighter.Direction = -1;
                     break;
                 case "jump":
-                    _fighter.JumpRequest = true;
+                    _aiFighter.Fighter.JumpRequest = true;
                     break;
             }
         }
-        else if (_stateMachine.CurrentState == _move) 
+        else if (_stateMachine.CurrentState == _move)
         {
             if (_decisionTimer > _resetDecision)
             {
@@ -187,34 +133,34 @@ public class AILogicManager : MonoBehaviour
                 switch (decision)
                 {
                     case "stop":
-                        _fighter.Direction = 0;
+                        _aiFighter.Fighter.Direction = 0;
                         break;
                     case "continue":
                         break;
                     case "jump":
-                        _fighter.JumpRequest = true;
+                        _aiFighter.Fighter.JumpRequest = true;
                         break;
                 }
                 _decisionTimer = 0;
             }
-            else 
+            else
             {
                 _decisionTimer += Time.deltaTime;
             }
         }
     }
-    string Roulette(Dictionary<string,float> dic) 
+    string Roulette(Dictionary<string, float> dic)
     {
-        float _totalProbabilitie = 0;
-        foreach (var option in dic) 
+        float _totalProbabilities = 0;
+        foreach (var option in dic)
         {
-            _totalProbabilitie += option.Value;
+            _totalProbabilities += option.Value;
         }
-        float random = UnityEngine.Random.Range(0, _totalProbabilitie);
-        foreach (var option in dic) 
+        float random = UnityEngine.Random.Range(0, _totalProbabilities);
+        foreach (var option in dic)
         {
             random -= option.Value;
-            if (random <= 0) 
+            if (random <= 0)
             {
                 return option.Key;
             }
