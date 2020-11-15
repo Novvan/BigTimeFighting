@@ -39,6 +39,7 @@ public class Move : IState
             _rb.velocity = new Vector2(_fighter.Speed * _direction, _rb.velocity.y);
             _anim.Play(STATE_ANIMATION);
         }
+        if (!_isPlayer) _aiLogic.MoveQuestion.Execute();
     }
 
     public void OnExit()

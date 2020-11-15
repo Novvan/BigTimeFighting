@@ -9,13 +9,14 @@ public class AILogicManager : MonoBehaviour
 {
     //Attacks && actions 
     private Dictionary<string, float> _attacks;
-    private Dictionary<string, float> _idleMovements;
+    private Dictionary<string, float> _idleActions;
+    private Dictionary<string, float> _moveActions;
 
     //Private References
     private GameObject _player;
     private Rigidbody2D _rb;
     private Fighter _fighter;
-    private float _resetDecision = 2.5f;
+    private float _resetDecision = 0.25f;
     private float _decisionTimer = 0;
     [SerializeField] private float _minAttackDistance; 
 
@@ -31,17 +32,20 @@ public class AILogicManager : MonoBehaviour
 
     //Question Nodes
     private QuestionNode _idleQuestion;
+    private QuestionNode _moveQuestion;
 
     //ActionNodes
-    private ActionNode _attackAction;
-    private ActionNode _punchAction;
-    private ActionNode _kickAction;
-    private ActionNode _moveAction;
-    private ActionNode _jumpAction;
+    private ActionNode _attackActionNode;
+    private ActionNode _punchActionNode;
+    private ActionNode _kickActionNode;
+    private ActionNode _moveActionNode;
+    private ActionNode _jumpActionNode;
 
     //Public References
     public GameObject Player { set => _player = value; }
     public QuestionNode IdleQuestion { get => _idleQuestion; }
+    public QuestionNode MoveQuestion { get => _moveQuestion; }
+
     void Start()
     {
         _fighter = gameObject.GetComponent<Fighter>();
@@ -49,7 +53,8 @@ public class AILogicManager : MonoBehaviour
         _stateMachine = new StateMachine();
         _conditions = new AIConditionManager(_fighter);
         _attacks = new Dictionary<string, float>();
-        _idleMovements = new Dictionary<string, float>();
+        _idleActions = new Dictionary<string, float>();
+        _moveActions = new Dictionary<string, float>();
 
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
@@ -84,21 +89,25 @@ public class AILogicManager : MonoBehaviour
         At(_punch, _hit, _conditions.hitted());
         
         //Nodes
-        _attackAction = new ActionNode(Attack);
-        _punchAction = new ActionNode(Punch);
-        _kickAction = new ActionNode(Kick);
-        _moveAction = new ActionNode(Move);
+        _attackActionNode = new ActionNode(Attack);
+        _punchActionNode = new ActionNode(Punch);
+        _kickActionNode = new ActionNode(Kick);
+        _moveActionNode = new ActionNode(Move);
 
-        _idleQuestion = new QuestionNode(IsInRange,_attackAction,_moveAction);
-        //_moveQuestion
+        _idleQuestion = new QuestionNode(IsInRange, _attackActionNode, _moveActionNode);
+        _moveQuestion = new QuestionNode(IsInRange, _attackActionNode, _moveActionNode);
 
         _attacks.Add("punch", 20);
         _attacks.Add("kick", 10);
+        _attacks.Add("back", 10);
 
-        _idleMovements.Add("idle", 0);
-        _idleMovements.Add("forward", 0);
-        _idleMovements.Add("backward", 0);
-        _idleMovements.Add("jump", 10);
+        _idleActions.Add("forward", 100);
+        _idleActions.Add("backward", 30);
+        _idleActions.Add("jump", 0);
+
+        _moveActions.Add("stop", 50);
+        _moveActions.Add("continue", 70);
+        _moveActions.Add("jump", 0);
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
@@ -123,15 +132,22 @@ public class AILogicManager : MonoBehaviour
     }
     void Attack() 
     {
-        string attack = Roulette(_attacks);
-        switch (attack) 
+        if (!_fighter.Jumping)
         {
-            case "punch":
-                _punchAction.Execute();
-                break;
-            case "kick":
-                _kickAction.Execute();
-                break;
+            string attack = Roulette(_attacks);
+            switch (attack)
+            {
+                case "punch":
+                    _punchActionNode.Execute();
+                    break;
+                case "kick":
+                    _kickActionNode.Execute();
+                    break;
+                case "back":
+                    if (_fighter.Fliped) _fighter.Direction = 1;
+                    else _fighter.Direction = -1;
+                    break;
+            }
         }
     }
     void Punch() 
@@ -145,23 +161,46 @@ public class AILogicManager : MonoBehaviour
     void Move() 
     {
         Debug.Log(_stateMachine.CurrentState);
-        string decision = Roulette(_idleMovements);
-        switch (decision) 
+        if (_stateMachine.CurrentState == _idle)
         {
-            case "idle":
-                _fighter.Direction = 0;
-                break;
-            case "forward":
-                if(_fighter.Fliped) _fighter.Direction = -1;
-                else _fighter.Direction = 1;
-                break;
-            case "backward":
-                if (_fighter.Fliped) _fighter.Direction = 1;
-                else _fighter.Direction = -1;
-                break;
-            case "jump":
-                _fighter.JumpRequest = true;
-                break;
+            string decision = Roulette(_idleActions);
+            switch (decision)
+            {
+                case "forward":
+                    if (_fighter.Fliped) _fighter.Direction = -1;
+                    else _fighter.Direction = 1;
+                    break;
+                case "backward":
+                    if (_fighter.Fliped) _fighter.Direction = 1;
+                    else _fighter.Direction = -1;
+                    break;
+                case "jump":
+                    _fighter.JumpRequest = true;
+                    break;
+            }
+        }
+        else if (_stateMachine.CurrentState == _move) 
+        {
+            if (_decisionTimer > _resetDecision)
+            {
+                string decision = Roulette(_moveActions);
+                switch (decision)
+                {
+                    case "stop":
+                        _fighter.Direction = 0;
+                        break;
+                    case "continue":
+                        break;
+                    case "jump":
+                        _fighter.JumpRequest = true;
+                        break;
+                }
+                _decisionTimer = 0;
+            }
+            else 
+            {
+                _decisionTimer += Time.deltaTime;
+            }
         }
     }
     string Roulette(Dictionary<string,float> dic) 
