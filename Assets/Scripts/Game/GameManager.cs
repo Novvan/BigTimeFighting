@@ -6,13 +6,13 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject _player;
     [SerializeField] private GameObject _ia;
+    [SerializeField] private Scene currentScene = Scene.menu;
 
     private float difference;
 
     public GameObject Ia { get => _ia; set => _ia = value; }
     public GameObject Player { get => _player; set => _player = value; }
     private enum Scene { menu, fight }
-    [SerializeField]private Scene currentScene = Scene.menu;
 
     private void Awake()
     {
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Debug.Log(currentScene.ToString());
-        
+
     }
     private void Update()
     {
@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    public void StartFight() 
+    public void StartFight()
     {
         Debug.Log("state Change");
         currentScene = Scene.fight;

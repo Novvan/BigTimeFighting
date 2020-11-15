@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Fighter : MonoBehaviour
 {
+    [SerializeField] private float _life;
     [SerializeField] private float _jumpForce;
     [SerializeField] private float _speed;
     [SerializeField] private float _inmunityTimer;
@@ -12,6 +13,7 @@ public class Fighter : MonoBehaviour
     [SerializeField] private GameObject _punchCollider;
     [SerializeField] private GameObject _fighterHitbox;
 
+    private float _maxLife;
     private float _direction;
     private float _timer;
     private bool _jumping = false;
@@ -19,6 +21,7 @@ public class Fighter : MonoBehaviour
     private bool _kickColliderActive = false;
     private bool _punchColliderActive = false;
 
+    public float Life { get => _life; set => _life = value; }
     public float JumpForce => _jumpForce;
     public float Speed => _speed;
     public float Direction { get => _direction; set => _direction = value; }
@@ -40,6 +43,7 @@ public class Fighter : MonoBehaviour
 
     private void Awake()
     {
+        _maxLife = _life;
         _timer = 0;
         _kickCollider.SetActive(false);
         _punchCollider.SetActive(false);
