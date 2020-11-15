@@ -33,6 +33,7 @@ public class Hit : IState
     public void OnExit()
     {
         _timer = 0;
+        _fighter.FigterHitbox.SetActive(false);
     }
 
     public void Tick()

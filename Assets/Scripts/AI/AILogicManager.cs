@@ -8,7 +8,7 @@ using UnityEngine;
 public class AILogicManager : MonoBehaviour
 {
     //Attacks && actions 
-    private Dictionary<string, float> _attacks = new Dictionary<string, float>();
+    private Dictionary<string, float> _attacks;
 
     //Private References
     private GameObject _player;
@@ -16,6 +16,7 @@ public class AILogicManager : MonoBehaviour
     private Fighter _fighter;
     private float _resetDecision = 2.5f;
     private float _decisionTimer = 0;
+    [SerializeField] private float _minAttackDistance; 
 
     //STATES
     private StateMachine _stateMachine;
@@ -27,6 +28,16 @@ public class AILogicManager : MonoBehaviour
     private IState _kick;
     private IState _punch;
 
+    //Question Nodes
+    private QuestionNode _idleQuestion;
+
+    //ActionNodes
+    private ActionNode _attackAction;
+    private ActionNode _punchAction;
+    private ActionNode _kickAction;
+    private ActionNode _moveAction;
+    private ActionNode _jumpAction;
+
     //Public References
     public GameObject Player { set => _player = value; }
 
@@ -36,6 +47,7 @@ public class AILogicManager : MonoBehaviour
         _rb = gameObject.GetComponent<Rigidbody2D>();
         _stateMachine = new StateMachine();
         _conditions = new AIConditionManager(_fighter);
+        _attacks = new Dictionary<string, float>();
 
         _idle = new Idle(gameObject);
         _move = new Move(gameObject);
@@ -44,19 +56,20 @@ public class AILogicManager : MonoBehaviour
         _kick = new Kick(gameObject);
         _punch = new Punch(gameObject);
 
+
         //idle Transitions
         At(_idle, _move, _conditions.falseReturn());
         At(_idle, _jump, _conditions.falseReturn());
         At(_idle, _hit, _conditions.hitted());
-        //At(_idle, _kick, );
-        //At(_idle, _punch, );
+        At(_idle, _kick, _conditions.kick());
+        At(_idle, _punch, _conditions.punch());
 
         //Move transitions
         At(_move, _idle, _conditions.falseReturn());
         At(_move, _jump, _conditions.falseReturn());
         At(_move, _hit, _conditions.hitted());
-        //At(_move, _kick, );
-        //At(_move, _punch, );
+        At(_move, _kick, _conditions.kick());
+        At(_move, _punch, _conditions.punch());
 
         //Jump Transitions
         At(_jump, _idle, _conditions.grounded());
@@ -66,19 +79,29 @@ public class AILogicManager : MonoBehaviour
 
         //punch Transitions
         At(_punch, _hit, _conditions.hitted());
+        
+        //Nodes
+        _attackAction = new ActionNode(Attack);
+        _punchAction = new ActionNode(Punch);
+        _kickAction = new ActionNode(Kick);
+        _moveAction = new ActionNode(Move);
 
+        _idleQuestion = new QuestionNode(IsInRange,_attackAction,_moveAction);
+
+        _attacks.Add("punch", 20);
+        _attacks.Add("kick", 10);
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
 
         _stateMachine.SetState(_idle);
     }
-    bool IsInRange(float d)
+    bool IsInRange()
     {
         Vector2 _difference = _player.gameObject.transform.position - transform.position;
         _difference.y = 0;
         float _distance = _difference.magnitude;
-        if (_distance > d) return false;
+        if (_distance > _minAttackDistance) return false;
         else return true;
     }
     bool CompareHeight()
@@ -87,27 +110,63 @@ public class AILogicManager : MonoBehaviour
     }
     void Update()
     {
-        _stateMachine.Tick();
-        //Roulette punch && kick && sa
-        /*string _decision = "Punch";
-        if (IsInRange(_attacks[_decision]))
+        Debug.Log(_stateMachine.CurrentState);
+        switch (_stateMachine.CurrentState.ToString().ToLower()) 
         {
-            //State according to the decision
-            Debug.Log("Punching");
+            case "idle":
+                _idleQuestion.Execute();
+                break;
+            case "move":
+                break;
+            default:
+               // Debug.Log("no interaction");
+                break;
         }
-        else
+        _stateMachine.Tick();
+        
+    }
+    void Attack() 
+    {
+        string attack = Roulet(_attacks);
+        switch (attack) 
         {
-            if (_decisionTimer >= _resetDecision)
+            case "punch":
+                _punchAction.Execute();
+                break;
+            case "kick":
+                _kickAction.Execute();
+                break;
+        }
+    }
+    void Punch() 
+    {
+        _fighter.PunchRequest = true;
+    }
+    void Kick() 
+    {
+        _fighter.KickRequest = true;
+    }
+    void Move() 
+    {
+
+    }
+    string Roulet(Dictionary<string,float> dic) 
+    {
+        float _totalProbabilitie = 0;
+        foreach (var option in dic) 
+        {
+            _totalProbabilitie += option.Value;
+        }
+        float random = UnityEngine.Random.Range(0, _totalProbabilitie);
+        foreach (var option in dic) 
+        {
+            random -= option.Value;
+            if (random <= 0) 
             {
-                //Apply roulette
-                _decisionTimer = 0;
+                return option.Key;
             }
-            else
-            {
-                _walk.Execute();
-                _decisionTimer += Time.deltaTime;
-            }
-        }*/
+        }
+        return null;
     }
 
     public void ResetState()
