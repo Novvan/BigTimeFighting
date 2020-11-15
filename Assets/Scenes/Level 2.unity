@@ -213,6 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 317337154}
   - component: {fileID: 317337155}
+  - component: {fileID: 317337156}
   m_Layer: 0
   m_Name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_0
   m_TagString: Untagged
@@ -228,7 +229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317337153}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.31, y: -0.12, z: 10}
+  m_LocalPosition: {x: -11.25, y: 0, z: 10}
   m_LocalScale: {x: 6.41004, y: 6.41004, z: 6.41004}
   m_Children: []
   m_Father: {fileID: 1030041352}
@@ -277,6 +278,184 @@ SpriteRenderer:
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.53, y: 1.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!68 &317337156
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317337153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.16113663, y: -0.61016315}
+  - {x: 0.37211844, y: 0.58035237}
+  - {x: 0.37272084, y: -0.6281553}
+  - {x: 3.1326015, y: -0.6242331}
+  - {x: 3.1350245, y: 0.5927885}
+  - {x: 3.5070667, y: -0.60340405}
+--- !u!1001 &343731878
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46983376
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3736436
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.40639
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459677115583304851, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 720526189786319242, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090960624105906417, guid: 7640994c54fb1bb46b31031055153144,
+        type: 3}
+      propertyPath: currentScene
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7640994c54fb1bb46b31031055153144, type: 3}
+--- !u!1 &374769547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374769548}
+  - component: {fileID: 374769549}
+  m_Layer: 0
+  m_Name: SNES - Super Street Fighter II The New Challengers - Fei Long Stage_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &374769548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374769547}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.37, y: 0, z: 10}
+  m_LocalScale: {x: 6.41004, y: 6.41004, z: 6.41004}
+  m_Children: []
+  m_Father: {fileID: 1030041352}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &374769549
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374769547}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -8131707413685095214, guid: e222d48f7a1f5cb40aac093d91f7b127,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3.53, y: 1.6}
@@ -450,6 +629,7 @@ Transform:
   - {fileID: 317337154}
   - {fileID: 679480989}
   - {fileID: 196167236}
+  - {fileID: 374769548}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
