@@ -16,10 +16,10 @@ TagManager:
   - 
   - 
   - Environment
-  - Player
-  - Background
-  - 
-  - 
+  - Fighter
+  - StandingArea
+  - FighterHitbox
+  - AttackHitbox
   - 
   - 
   - 

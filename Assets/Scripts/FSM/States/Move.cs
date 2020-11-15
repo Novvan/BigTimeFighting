@@ -4,45 +4,38 @@ using UnityEngine;
 
 public class Move : IState
 {
-    private GameObject _entity;
-    private Rigidbody2D _rb;
+    const string STATE_ANIMATION = "move";
+    private readonly GameObject _entity;
+    private readonly Rigidbody2D _rb;
+    private readonly Fighter _fighter;
+    private readonly Animator _anim;
     private float _direction;
-    private float _speed = 7.5f;
-    private int _jumpCount = 1;
-    private int _currentJumps = 0;
-    private float _jumpForce = 10;
 
     public Move(GameObject entity)
     {
 
         _entity = entity;
+        _anim = _entity.GetComponent<Animator>();
         _rb = _entity.GetComponent<Rigidbody2D>();
+        _fighter = _entity.GetComponent<Fighter>();
     }
 
     public void OnEnter()
     {
-        _direction = _entity.CompareTag("Player") ? _entity.GetComponent<Player>().Direction : _entity.GetComponent<AILogicManager>().Direction;
+        _direction = _fighter.Direction;
     }
 
     public void Tick()
     {
-
         if (_direction != 0)
         {
-            _rb.velocity = new Vector2(_speed * _direction, _rb.velocity.y);
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (_currentJumps < _jumpCount)
-            {
-                _rb.AddForce(new Vector2(0, _jumpForce), ForceMode2D.Impulse);
-                _currentJumps++;
-            }
+            _rb.velocity = new Vector2(_fighter.Speed * _direction, _rb.velocity.y);
+            _anim.Play(STATE_ANIMATION);
         }
     }
 
     public void OnExit()
     {
-        _rb.velocity = new Vector2(0, _rb.velocity.y);
+        _anim.StopPlayback();
     }
 }
