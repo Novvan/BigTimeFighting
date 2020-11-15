@@ -10,7 +10,7 @@ public class Fighter : MonoBehaviour
     [SerializeField] private bool _fliped;
     [SerializeField] private GameObject _kickCollider;
     [SerializeField] private GameObject _punchCollider;
-    [SerializeField] private GameObject _figterHitbox;
+    [SerializeField] private GameObject _fighterHitbox;
 
     private float _direction;
     private float _timer;
@@ -27,7 +27,7 @@ public class Fighter : MonoBehaviour
     public bool KickColliderActive { get => _kickColliderActive; set => _kickColliderActive = value; }
     public bool PunchColliderActive { get => _punchColliderActive; set => _punchColliderActive = value; }
     public bool Hit { get => _hit; set => _hit = value; }
-    public GameObject FigterHitbox { get => _figterHitbox; set => _figterHitbox = value; }
+    public GameObject FigterHitbox { get => _fighterHitbox; set => _fighterHitbox = value; }
 
     // Only AI Variables
     private bool _punchRequest;
@@ -48,20 +48,20 @@ public class Fighter : MonoBehaviour
     {
         _kickCollider.SetActive(_kickColliderActive);
         _punchCollider.SetActive(_punchColliderActive);
-        if (!_figterHitbox.active) 
+        if (!_fighterHitbox.active)
         {
             if (_timer >= _inmunityTimer)
             {
                 _timer = 0;
-                _figterHitbox.SetActive(true);
+                _fighterHitbox.SetActive(true);
             }
-            else 
+            else
             {
                 _timer += Time.deltaTime;
             }
         }
     }
-    private void CheckColliders() 
+    private void CheckColliders()
     {
         _kickCollider.SetActive(_kickColliderActive);
         _punchCollider.SetActive(_punchColliderActive);
@@ -69,11 +69,11 @@ public class Fighter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.layer == 11)
+        if (other.gameObject.layer == 11)
         {
             other.gameObject.GetComponentInParent<Fighter>().Hit = true;
         }
-        
+
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
