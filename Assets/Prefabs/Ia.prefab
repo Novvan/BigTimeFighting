@@ -330,9 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b19ed8186f962478ca40927539ad14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _jumpForce: 12
+  _jumpForce: 15
   _speed: 5
-  _inmunityTimer: 0.5
+  _inmunityTimer: 0.75
   _fliped: 0
   _kickCollider: {fileID: 4354504705847293210}
   _punchCollider: {fileID: 5556022819446001201}

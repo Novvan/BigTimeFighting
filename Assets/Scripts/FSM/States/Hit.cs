@@ -19,14 +19,14 @@ public class Hit : IState
     public void OnEnter()
     {
         _anim.Play("damaged");
-        _rb.velocity = Vector2.zero;
+        _rb.velocity = new Vector2(0,_rb.velocity.y);
         if (_fighter.Fliped)
         {
-            _rb.AddForce(new Vector2(_fighter.Speed / 4, 0), ForceMode2D.Impulse);
+            _rb.AddForce(new Vector2(_fighter.Speed / 2, 0), ForceMode2D.Impulse);
         }
         else
         {
-            _rb.AddForce(new Vector2(-_fighter.Speed / 4, 0), ForceMode2D.Impulse);
+            _rb.AddForce(new Vector2(-_fighter.Speed / 2, 0), ForceMode2D.Impulse);
         }
     }
 

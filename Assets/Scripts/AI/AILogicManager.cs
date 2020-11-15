@@ -9,6 +9,7 @@ public class AILogicManager : MonoBehaviour
 {
     //Attacks && actions 
     private Dictionary<string, float> _attacks;
+    private Dictionary<string, float> _idleMovements;
 
     //Private References
     private GameObject _player;
@@ -40,7 +41,7 @@ public class AILogicManager : MonoBehaviour
 
     //Public References
     public GameObject Player { set => _player = value; }
-
+    public QuestionNode IdleQuestion { get => _idleQuestion; }
     void Start()
     {
         _fighter = gameObject.GetComponent<Fighter>();
@@ -73,6 +74,7 @@ public class AILogicManager : MonoBehaviour
 
         //Jump Transitions
         At(_jump, _idle, _conditions.grounded());
+        At(_jump, _hit, _conditions.hitted());
 
         //kick Transitions
         At(_kick, _hit, _conditions.hitted());
@@ -87,9 +89,15 @@ public class AILogicManager : MonoBehaviour
         _moveAction = new ActionNode(Move);
 
         _idleQuestion = new QuestionNode(IsInRange,_attackAction,_moveAction);
+        //_moveQuestion
 
         _attacks.Add("punch", 20);
         _attacks.Add("kick", 10);
+
+        _idleMovements.Add("idle", 10);
+        _idleMovements.Add("forward", 50);
+        _idleMovements.Add("backward", 50);
+        _idleMovements.Add("jump", 20);
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
@@ -110,24 +118,11 @@ public class AILogicManager : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(_stateMachine.CurrentState);
-        switch (_stateMachine.CurrentState.ToString().ToLower()) 
-        {
-            case "idle":
-                _idleQuestion.Execute();
-                break;
-            case "move":
-                break;
-            default:
-               // Debug.Log("no interaction");
-                break;
-        }
-        _stateMachine.Tick();
-        
+       _stateMachine.Tick();
     }
     void Attack() 
     {
-        string attack = Roulet(_attacks);
+        string attack = Roulette(_attacks);
         switch (attack) 
         {
             case "punch":
@@ -148,9 +143,20 @@ public class AILogicManager : MonoBehaviour
     }
     void Move() 
     {
-
+        string decision = Roulette(_idleMovements);
+        switch (decision) 
+        {
+            case "idle":
+                break;
+            case "forward":
+                break;
+            case "backward":
+                break;
+            case "jump":
+                break;
+        }
     }
-    string Roulet(Dictionary<string,float> dic) 
+    string Roulette(Dictionary<string,float> dic) 
     {
         float _totalProbabilitie = 0;
         foreach (var option in dic) 
