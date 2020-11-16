@@ -46,4 +46,12 @@ public class PlayerConditionManager : IConditionManager
     {
         return !_fighter.Jumping;
     };
+    public Func<bool> win() => () =>
+    {
+        return _fighter.Win;
+    };
+    public Func<bool> lose() => () =>
+    {
+        return _fighter.Lose;
+    };
 }
