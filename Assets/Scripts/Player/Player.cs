@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
     private IState _hit;
     private IState _kick;
     private IState _punch;
+    private IState _win;
+    private IState _lose;
 
     private void Awake()
     {
@@ -31,6 +33,9 @@ public class Player : MonoBehaviour
         _hit = new Hit(gameObject, _audioManager);
         _kick = new Kick(gameObject, _audioManager);
         _punch = new Punch(gameObject, _audioManager);
+        _win = new Win(gameObject);
+        _lose = new Lose(gameObject);
+
 
         //idle Transitions
         At(_idle, _move, _conditions.move());
@@ -38,6 +43,7 @@ public class Player : MonoBehaviour
         At(_idle, _hit, _conditions.hitted());
         At(_idle, _kick, _conditions.kick());
         At(_idle, _punch, _conditions.punch());
+        At(_idle, _win, _conditions.win());
 
         //Move transitions
         At(_move, _idle, _conditions.still());
@@ -45,6 +51,7 @@ public class Player : MonoBehaviour
         At(_move, _hit, _conditions.hitted());
         At(_move, _kick, _conditions.kick());
         At(_move, _punch, _conditions.punch());
+        At(_move, _win, _conditions.win());
 
         //Jump Transitions
         At(_jump, _idle, _conditions.grounded());
@@ -55,6 +62,9 @@ public class Player : MonoBehaviour
 
         //punch Transitions
         At(_punch, _hit, _conditions.hitted());
+
+        //hit Transitions
+        At(_hit, _lose, _conditions.lose());
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);

@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject _player;
     [SerializeField] private GameObject _ia;
     [SerializeField] private Scene currentScene = Scene.menu;
+    [SerializeField] private Slider _playerSlider;
+    [SerializeField] private Slider _aiSlider;
 
     private float difference;
 
@@ -46,6 +49,20 @@ public class GameManager : MonoBehaviour
             {
                 _player.GetComponent<Fighter>().Fliped = true;
                 _ia.GetComponent<Fighter>().Fliped = false;
+            }
+            _playerSlider.value = _player.GetComponent<Fighter>().Life / _player.GetComponent<Fighter>().MaxLife;
+            _aiSlider.value = _ia.GetComponent<AIFighter>().Fighter.Life / _ia.GetComponent<AIFighter>().Fighter.MaxLife;
+
+            if (_player.GetComponent<Fighter>().Life <= 0)
+            {
+                _player.GetComponent<Fighter>().Lose = true;
+                _ia.GetComponent<AIFighter>().Fighter.Win = true;
+            }
+            
+            else if (_ia.GetComponent<AIFighter>().Fighter.Life <= 0)
+            {
+                _player.GetComponent<Fighter>().Win = true;
+                _ia.GetComponent<AIFighter>().Fighter.Lose = true;
             }
         }
     }

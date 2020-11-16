@@ -16,6 +16,8 @@ public class AIFighter : MonoBehaviour
     private IState _hit;
     private IState _kick;
     private IState _punch;
+    private IState _win;
+    private IState _lose;
 
     public IState IdleState { get => _idle; }
     public IState MoveState { get => _move; }
@@ -37,7 +39,8 @@ public class AIFighter : MonoBehaviour
         _hit = new Hit(gameObject, _audioManager);
         _kick = new Kick(gameObject, _audioManager);
         _punch = new Punch(gameObject, _audioManager);
-
+        _win = new Win(gameObject);
+        _lose = new Lose(gameObject);
 
         //idle Transitions
         At(_idle, _move, _conditions.move());
@@ -45,6 +48,7 @@ public class AIFighter : MonoBehaviour
         At(_idle, _hit, _conditions.hitted());
         At(_idle, _kick, _conditions.kick());
         At(_idle, _punch, _conditions.punch());
+        At(_idle, _win, _conditions.win());
 
         //Move transitions
         At(_move, _idle, _conditions.still());
@@ -52,6 +56,7 @@ public class AIFighter : MonoBehaviour
         At(_move, _hit, _conditions.hitted());
         At(_move, _kick, _conditions.kick());
         At(_move, _punch, _conditions.punch());
+        At(_move, _win, _conditions.win());
 
         //Jump Transitions
         At(_jump, _idle, _conditions.grounded());
@@ -62,6 +67,9 @@ public class AIFighter : MonoBehaviour
 
         //punch Transitions
         At(_punch, _hit, _conditions.hitted());
+
+        //hit Transitions
+        At(_hit, _lose, _conditions.lose());
 
         //AddTransition alias
         void At(IState to, IState from, Func<bool> condition) => _stateMachine.AddTransition(to, from, condition);
