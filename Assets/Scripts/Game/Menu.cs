@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    
+
     [SerializeField] private GameObject _main;
     [SerializeField] private GameObject _select;
     [SerializeField] private GameManager _gm;
@@ -21,13 +21,13 @@ public class Menu : MonoBehaviour
     }
     public void QuitGame()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        // UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
-    public void SelectCharacter(RuntimeAnimatorController selected) 
+    public void SelectCharacter(RuntimeAnimatorController selected)
     {
         _gm.Player.GetComponent<Animator>().runtimeAnimatorController = selected;
         _gm.StartFight();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -6,16 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     [SerializeField] private GameObject _player;
     [SerializeField] private GameObject _ia;
-    [SerializeField] private Scene currentScene = Scene.menu;
-    [SerializeField] private Slider _playerSlider;
-    [SerializeField] private Slider _aiSlider;
-    [SerializeField] private Text _youWin;
-    [SerializeField] private Text _youLose;
-    [SerializeField] private Button _backToMenu;
-
+    [SerializeField] private Scene _currentScene = Scene.menu;
     private float difference;
+    private AudioManager _am;
 
     public GameObject Ia { get => _ia; set => _ia = value; }
     public GameObject Player { get => _player; set => _player = value; }
@@ -23,25 +20,22 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
-        if (currentScene == Scene.fight)
+        if (instance == null)
         {
-            _player = Instantiate(_player, new Vector3(-5, 0, 0), Quaternion.identity);
-            _player.tag = "Player";
-
-            _ia = Instantiate(_ia, new Vector3(5, 0, 0), Quaternion.identity);
-            _ia.GetComponent<AILogicManager>().Player = _player;
-            _ia.tag = "Enemy";
+            instance = this;
+            DontDestroyOnLoad(gameObject);
         }
+        else if (instance != null) Destroy(this.gameObject);
+
+        _am = FindObjectOfType<AudioManager>();
     }
     void Start()
     {
-        Debug.Log(currentScene.ToString());
-
+        if (_currentScene == Scene.menu) _am.Play("theme");
     }
     private void Update()
     {
-        if (currentScene == Scene.fight)
+        if (_currentScene == Scene.fight)
         {
             difference = _ia.gameObject.transform.position.x - _player.gameObject.transform.position.x;
             if (difference > 0)
@@ -54,37 +48,17 @@ public class GameManager : MonoBehaviour
                 _player.GetComponent<Fighter>().Fliped = true;
                 _ia.GetComponent<Fighter>().Fliped = false;
             }
-            _playerSlider.value = _player.GetComponent<Fighter>().Life / _player.GetComponent<Fighter>().MaxLife;
-            _aiSlider.value = _ia.GetComponent<AIFighter>().Fighter.Life / _ia.GetComponent<AIFighter>().Fighter.MaxLife;
-
-            if (_player.GetComponent<Fighter>().Life <= 0)
-            {
-                _player.GetComponent<Fighter>().Lose = true;
-                _youLose.gameObject.SetActive(true);
-                _ia.GetComponent<AIFighter>().Fighter.Win = true;
-                _backToMenu.gameObject.SetActive(true);
-            }
-
-            else if (_ia.GetComponent<AIFighter>().Fighter.Life <= 0)
-            {
-                _player.GetComponent<Fighter>().Win = true;
-                _youWin.gameObject.SetActive(true);
-                _ia.GetComponent<AIFighter>().Fighter.Lose = true;
-                _backToMenu.gameObject.SetActive(true);
-            }
-
-
         }
     }
     public void StartFight()
     {
         Debug.Log("state Change");
-        currentScene = Scene.fight;
+        _currentScene = Scene.fight;
     }
 
     public void OpenLevel(string level)
     {
-        currentScene = Scene.menu;
+        _currentScene = Scene.menu;
         SceneManager.LoadScene(level);
     }
 }
