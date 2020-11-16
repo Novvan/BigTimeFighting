@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _life: 0
-  _jumpForce: 12
+  _jumpForce: 15
   _speed: 5
   _inmunityTimer: 0.5
   _fliped: 1

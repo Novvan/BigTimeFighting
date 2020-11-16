@@ -58,15 +58,15 @@ public class AILogicManager : MonoBehaviour
 
         _attacks.Add("punch", 20);
         _attacks.Add("kick", 10);
-        _attacks.Add("back", 10);
+        _attacks.Add("back", 15);
 
         _idleActions.Add("forward", 100);
-        _idleActions.Add("backward", 30);
-        _idleActions.Add("jump", 0);
+        _idleActions.Add("backward", 70);
+        _idleActions.Add("jump", 10);
 
         _moveActions.Add("stop", 50);
         _moveActions.Add("continue", 70);
-        _moveActions.Add("jump", 0);
+        _moveActions.Add("jump", 15);
     }
     bool IsInRange()
     {

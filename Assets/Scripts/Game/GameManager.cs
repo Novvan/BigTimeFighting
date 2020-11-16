@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Scene currentScene = Scene.menu;
     [SerializeField] private Slider _playerSlider;
     [SerializeField] private Slider _aiSlider;
+    [SerializeField] private Text _youWin;
+    [SerializeField] private Text _youLose;
+    [SerializeField] private Button _backToMenu;
 
     private float difference;
 
@@ -56,19 +60,31 @@ public class GameManager : MonoBehaviour
             if (_player.GetComponent<Fighter>().Life <= 0)
             {
                 _player.GetComponent<Fighter>().Lose = true;
+                _youLose.gameObject.SetActive(true);
                 _ia.GetComponent<AIFighter>().Fighter.Win = true;
+                _backToMenu.gameObject.SetActive(true);
             }
-            
+
             else if (_ia.GetComponent<AIFighter>().Fighter.Life <= 0)
             {
                 _player.GetComponent<Fighter>().Win = true;
+                _youWin.gameObject.SetActive(true);
                 _ia.GetComponent<AIFighter>().Fighter.Lose = true;
+                _backToMenu.gameObject.SetActive(true);
             }
+
+
         }
     }
     public void StartFight()
     {
         Debug.Log("state Change");
         currentScene = Scene.fight;
+    }
+
+    public void OpenLevel(string level)
+    {
+        currentScene = Scene.menu;
+        SceneManager.LoadScene(level);
     }
 }

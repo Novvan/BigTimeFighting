@@ -29,7 +29,7 @@ public class Move : IState
     public void OnEnter()
     {
         _direction = _fighter.Direction;
-       
+
     }
 
     public void Tick()
@@ -38,6 +38,14 @@ public class Move : IState
         {
             _rb.velocity = new Vector2(_fighter.Speed * _direction, _rb.velocity.y);
             _anim.Play(STATE_ANIMATION);
+        }
+        if (_fighter.Fliped)
+        {
+            _entity.gameObject.transform.localScale = new Vector3(-Mathf.Abs(_entity.gameObject.transform.localScale.x), _entity.gameObject.transform.localScale.y, _entity.gameObject.transform.localScale.z);
+        }
+        else
+        {
+            _entity.gameObject.transform.localScale = new Vector3(Mathf.Abs(_entity.gameObject.transform.localScale.x), _entity.gameObject.transform.localScale.y, _entity.gameObject.transform.localScale.z);
         }
         if (!_isPlayer) _aiLogic.MoveQuestion.Execute();
     }
